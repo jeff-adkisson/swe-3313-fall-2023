@@ -140,7 +140,7 @@ After considering these notes, put together your teams. You will tell me your te
 
 Once your team is ready, post your team information on this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1HAYA4j73sbCi0KeXlEjSr-4Po-mB3QXsVpAHA1ZZQbQ/edit?usp=sharing). Read the Instructions tab, then select an unused team sheet and complete the required information. Do not modify the spreadsheet or change another team's information. 
 
-
+![image-20230828092225481](/Users/jeff/projects/swe-3313-fall-2023/project/README.assets/image-20230828092225481.png)
 
 NOTE: Anyone not on a team by selection day will be assigned to one by me. If you are uncomfortable finding teammates, it will not be a problem.
 
