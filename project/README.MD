@@ -1,23 +1,40 @@
 # SWE 3313 Project Introduction
 
+`Revised Aug 28, 2023`
+
 This course has a large team project that starts immediately after Exam 1. You should start thinking about it now and considering who to add to your team.
 
-This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade.
+This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade (300 of 600 total points).
 
+- [Team Selection](#team-selection)<br/>
+   
+   Not graded
+   Due Thurs Sept 21
 - [Project Plan](#project-plan)<br/>
    15 points, 5% of total
+   Due Tues Oct 10
 - [Requirements](#requirements)<br/>
    30 points, 10% of total
+   Due Tues Oct 24 
 - [User Interface Design](#user-interface-design)<br/>
    30 points, 10% of total
+   Due Thurs Nov 2
 - [Technical Design](#technical-design)<br/>
    30 points, 10% of total
+   Due Thurs Nov 9
 - [Implementation](#implementation)<br/>
    105 points, 35% of total
+   Due Thurs Nov 30
 - [Final Presentation](#final-presentation)<br/>
    60 points, 20% of total
+   Due Thurs Nov 30
+   Presentation order will be randomly selected (except late teams, which must present on Dec 5)
+   
+   - Presentations 1-5 on Thurs Nov 30
+   - Presentations 6-10 on Tues Dec 5
 - [Peer Evaluation](#peer-evaluation)<br/>
    30 points, 10% of total
+   Due Tues Dec 5
 
 ---
 
@@ -140,7 +157,7 @@ After considering these notes, put together your teams. You will tell me your te
 
 Once your team is ready, post your team information on this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1HAYA4j73sbCi0KeXlEjSr-4Po-mB3QXsVpAHA1ZZQbQ/edit?usp=sharing). Read the Instructions tab, then select an unused team sheet and complete the required information. Do not modify the spreadsheet or change another team's information. 
 
-![image-20230828092225481](README.assets/image-20230828092225481.png)
+![image-20230828112300795](README.assets/image-20230828112300795.png)
 
 NOTE: Anyone not on a team by selection day will be assigned to one by me. If you are uncomfortable finding teammates, it will not be a problem.
 
@@ -149,6 +166,8 @@ NOTE: Anyone not on a team by selection day will be assigned to one by me. If yo
 ## Project Plan
 
 `5%, 15 of 300  points`
+
+`Due Tues, Oct  10, 2023, Post plan and chart in YouTrack, post project link in D2L assignment folder`
 
 In this component, you will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. I will give you the milestone dates. You will decompose the milestones into tasks that do not exceed 3 days, assign each a priority and team member(s), and order them in a Gantt chart.
 
@@ -172,6 +191,8 @@ Since every team will have the same milestone dates, most of these will look sim
 ## Requirements
 
 `10%, 30 of 300 points`
+
+`Due Tues, Oct  24, 2023 Post requirements in YouTrack, post project link in D2L assignment folder`
 
 This component has three sections:
 
@@ -240,6 +261,8 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 `10%, 30 of 300 points`
 
+`Due Thurs, Nov 2, 2023 - Share UI Design in Marvel, post link in D2L assignment folder`
+
 In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a high-fidelity mockup of your application using the free edition of [Marvel](https://marvelapp.com).
 
 In this component, you are designing how users will move through your application. After reviewing your mockup, your client (me) will have a good understanding how each screen will look and how each screen relates to one another.
@@ -276,6 +299,8 @@ As always, you will produce a 5 minute video presentation showing your UI design
 
 `10% = 30 of 300 points`
 
+`Due Thurs, Nov 9, 2023 - Post Technical Design in YouTrack Knowledge Base, post link in D2L assignment folder`
+
 At this point, you have spent significant time thinking about and working on your project. You should have very good ideas how to implement your system. Now that you have this knowledge and insight, you will produce a technical design detailing how you will build the most critical pieces of the system.
 
 Your Technical Design will include:
@@ -310,6 +335,8 @@ Do not forget that you can get up to two extra points on your final grade visiti
 ## Implementation
 
 `35% = 105 of 300 points`
+
+`Due Thurs, Nov 30, 2023 - Post implementation Github, post link in D2L assignment folder`
 
 Finally, you are ready to produce your application! You have planned most of the semester and you know exactly what to make.
 
@@ -360,6 +387,8 @@ PRO TIP 3: I love mechanical keyboards. Not really a tip, but we are talking abo
 
 `20% = 60 of 300 points`
 
+`Due Thurs, Nov 30, 2023 - Post presentation in Github, post link in D2L assignment folder`
+
 This is the end. You are done! The holidays are almost here and this course has an OPTIONAL final exam!
 
 Once your implementation is ready, you will produce a polished 5 minute presentation of your working application. Your audience is your client (me). Assume that your client (me) brought 40 members of his team (all of you) with him to view the final presentation.
@@ -374,7 +403,12 @@ Your 5 minute final presentation will include:
 
 After the entire class views your final presentation, your client (me) will ask you some questions. Your team must be present - everyone must participate.
 
-We will use two lecture periods for final presentations. Each presentation and Q&A session will take about 10-12 minutes.
+We will use two lecture periods for final presentations. Each presentation and Q&A session will take about 10-12 minutes. Attendance is mandatory for all students for both presentation days.
+
+Presentation order will be randomly selected (except late teams, which must present on Dec 5).
+
+- Presentations 1-5 on Thurs Nov 30
+- Presentations 6-10 on Tues Dec 5
 
 ### Detailed Component Requirements and Grading Rubric
 
@@ -385,6 +419,8 @@ We will use two lecture periods for final presentations. Each presentation and Q
 ## Peer Evaluation
 
 `10% = 30 of 300 points`
+
+`Due Tues, Dec 5, 2023 - Submit via D2L - Do NOT post in Github`
 
 Hopefully you have an outstanding team experience during this project. If not, hopefully you learned something about how challenging working in a team can be and how important it is to have the right people on the team with you.
 
