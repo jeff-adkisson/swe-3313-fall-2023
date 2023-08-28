@@ -4,19 +4,19 @@ This course has a large team project that starts immediately after Exam 1. You s
 
 This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade.
 
-- [Project Plan](#project-plan)
+- [Project Plan](#project-plan)<br/>
    15 points, 5% of total
-- [Requirements](#requirements)
+- [Requirements](#requirements)<br/>
    30 points, 10% of total
-- [User Interface Design](#user-interface-design)
+- [User Interface Design](#user-interface-design)<br/>
    30 points, 10% of total
-- [Technical Design](#technical-design)
+- [Technical Design](#technical-design)<br/>
    30 points, 10% of total
-- [Implementation](#implementation)
+- [Implementation](#implementation)<br/>
    105 points, 35% of total
-- [Final Presentation](#final-presentation)
+- [Final Presentation](#final-presentation)<br/>
    60 points, 20% of total
-- [Peer Evaluation](#peer-evaluation)
+- [Peer Evaluation](#peer-evaluation)<br/>
    30 points, 10% of total
 
 ---
@@ -26,13 +26,13 @@ This project attempts to simulate the software development process a small team 
 Your customer (me) wants a shopping cart/sales system that meets very specific architectural requirements. 
 
 The system will manage no less than three related data tables:
-- Inventory
+- Inventory<br/>
    Each item in this table will be unique (you will not choose a quantity). Items have at least one related image, plus a description, and price. Each item has a unique ID that will never repeat. If you want to show multiple images, you must add another table to your design.
-- Users
+- Users<br/>
    Users have a unique username and a role that sets their access level. Each user has a unique ID that will never repeat.
    - Customer: Can browse inventory and purchase items. Customers can self-register (create their own account).
    - Administrator: In addition to all Customer rights (except self-registration), Administrators can create, update, and remove inventory, plus run a sales report showing all sales.
-- Sales
+- Sales<br/>
    A sale record relates an inventory item to a user. A sale record also includes the date/time the item was sold and payment details such as sales tax, shipping fees, and the total. Once an inventory item is related to a sales record, it is no longer available for purchase. Each sale record has a unique ID that will never repeat.
 
 Your team will decide what industry/product to target. You will pick something that sells *unique* items, similar to Etsy or a pet rescue. In other words, you will not create inventory items with a quantity greater than 1, so pick something that sells unique goods. Once an inventory item is in the Sales table, it is "sold" and no longer available for sale. Some ideas you might consider are:
@@ -56,23 +56,23 @@ Be creative (engineering is a very creative profession) and put some thought int
 
 This project covers many disciplines and you will use a variety of tools. Fortunately, none of them will cost you anything.
 
-1. Teammates
+1. Teammates<br/>
    Far and away the most important bit.
-2. A Team Name
+2. A Team Name<br/>
    Completely unnecessary, but you cannot have a team without a name. Pick something cool.
-3. A free Github account
+3. A free Github account<br/>
    You will check in some of your submissions and all of your presentations to a team Github account. Your team can either create a dedicated Github account or choose one team member to house the team's work in their  account.
-4. An IDE for development
+4. An IDE for development<br/>
    I will provide everyone a full JetBrains license. They have IDEs for every major language and operating system. You can use something else for development, but I recommend these, particularly if you have never used a professional-grade tool. JetBrains IDEs work on Windows, MacOS, and Linux.
-5. A YouTrack account
+5. A YouTrack account<br/>
    I will provide these to each of you. Your project plan, requirements, and technical design will be housed here. Your technical design will use YouTrack's Knowledge Base feature and will be written in [Markdown](https://markdown-it.github.io/). Your project plan will use YouTrack's excellent [Gantt Chart creator](https://www.jetbrains.com/youtrack/features/gantt_chart.html).
-6. A free Marvel account
+6. A free Marvel account<br/>
    Your UI design will be made in Marvel, a friendly high-fidelity design tool.
-7. Software to record video presentations
+7. Software to record video presentations<br/>
    Windows and MacOS both include recording software. You can use whatever you like as long as the results are high resolution and the audio is clear. If your presentations are too large to check in to Github, you can use [VLC to compress your presentation to a more reasonable size](https://multimedia.easeus.com/video-converter-tips/compress-video-vlc.html).
-8. D2L
+8. D2L<br/>
    Everyone will post a link to their team's work in the D2L assignment folder. This is necessary for the grade book. Your actual work will either be in YouTrack or Github. Every member of the team will post in D2L the same links. To avoid late penalties, do not assume your teammates are handling this for you.
-9. Diagramming tools
+9. Diagramming tools<br/>
    I will introduce you to a few. I am partial to [PlantUML](https://www.plantuml.com/plantuml/umla/jSxBQW8n6CNnVPxYuAPGK9pBgeYuQJTz28cJKoSqbo7vh1NjktTguw98SL6w2l_am2-hB3h9pZjrXzuQGdeY3r4ktTdKEQenzLkq1aEA6qUViRVIGuUjeq6NuZxZXHILNsqOTD8UpWRAOI1YaZugnI1M3fWydizvDO7EuBp2KG7thDRMu05XvpTCM2os34nQQ9PB1KodNwEWFSUDy5t6DCnTieFO62wN7rTCNPYwCFLjvlelJy_droWzqzfGj7NvTx8fP5F8vZRvHx4jObl4zX_4UONJQJQBnz6flpEMR7vcgrOCPkVT9m00) and [Mermaid]((https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldP-FvsTDOW6F60frnff4G-kLSMQ)) because I hate drawing. You can also use Dia (I think it stinks, but it is free and cross-platform and many courses here require it) or any professional grade diagramming tool such as LucidChart, yEd, etc, You cannot use PowerPoint (which is not a professional grade diagramming tool) or hand drawn diagrams. Try a few and pick the one you like.
 
 ---
@@ -123,17 +123,17 @@ As of August 26, there are 38 students in this course. Therefore, there will be 
 
 Choose your teammates wisely. I recommend thinking about the various competencies necessary to perform each component of the project with high quality. Each of you needs to contribute to each piece, so do not let your teammates do the work simply because they might have a bit more skill in a particular area. In fact, you should probably participate *more* in pieces where you have less expertise to get the practice you need to improve. Here are some of the competencies necessary to execute the various phases of the project.
 
-- Leadership
+- Leadership<br/>
    Someone needs to coordinate the team. Some teams do fine without this, but they are the exception. Most teams need someone who coordinates the group's activities and occasionally has to push one or more people to do their part. This can be a thankless job. I recommend learning a bit about [Servant Leadership](https://www.forbes.com/sites/forbescoachescouncil/2020/03/11/traditional-leadership-vs-servant-leadership/?sh=493498c6451e).
-- Written Communication
+- Written Communication<br/>
    This project has several large written deliverables. Your components must be professional-grade and exhibit outstanding grammar. Your work must effectively communicate very complex ideas. This includes the [Project Plan](#project-plan), [Requirements](#requirements), and [Technical Design](#technical-design).
-- Visual Design
+- Visual Design<br/>
    This project has a significant user interface design effort. This includes the User Interface Design component. Being a good visual designer means being able to see the world through the eyes and experience of your target audience.
-- Technical Design
+- Technical Design<br/>
    Every phase of this project requires you to understand what you can (and cannot) produce within the timeframe. You have requirements from me to execute. This is not simply expertise in coding... this involves deciding how to build something that meets the requirement with high quality in the allotted timeframe. 
-- Implementation / Coding / Packaging
+- Implementation / Coding / Packaging<br/>
    There is one coding phase. Being a good coder is not enough to ace this part. You have to execute the requirements, technical design, and visual design. In other words, you have to convert the artifacts produced earlier in the project into a working system.
-- Presentation
+- Presentation<br/>
    Every component (Project Plan, Requirements, etc.) includes a video presentation. This is where you will take the finished work you are delivering and produce a short 5 minute video describing what was done. This is where you are convincing your customer (me) that the work you are doing is high quality, meets or exceeds expectations, and that I can be confident you are on the right path.
 
 After considering these notes, put together your teams. You will tell me your teammates after Exam 1. On that day, I will provide you access to YouTrack, the system we will use to build your project plan, requirements, and technical design. Professional engineers typically use online tracking systems like YouTrack to manage large projects instead of Word, Excel, etc. We will do the same.
@@ -282,15 +282,15 @@ Your Technical Design will include:
 
 - Implementation Language including *why* you selected it
 - Implementation Frameworks including *why* selected it (obviously it's good experience, so leave that out and get into why your selection benefits the client in the long run)
-- [Entity Relationship Diagram](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm) and associated table of field descriptions
+- [Entity Relationship Diagram](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm) and associated table of field descriptions<br/>
    All of the data your system manages and how each data type is related will be visually depicted here and the fields along with the data types will be described in the associated table.
-- Services
+- Services<br/>
    Your system will rely on services such as authentication, inventory management, and shopping cart management. Here you will show the modules, classes, and methods associated with each service and their relationship to one another. Someone reviewing this artifact should understand the actions each of these services can provide and what each method returns.
-- Seed data
+- Seed data<br/>
    When you start your application, what is already in the system? We call this "seed data". Typically that includes at least one administrator account, your inventory items and photos, etc.
-- Data storage plan
+- Data storage plan<br/>
    How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to your embedded SQLite database. Remember that the data you change/add must remain available the next time you start the application - this is a class project, but it needs to operate like a real application and starting fresh every time you launch is not realistic.
-- [Coding Style Guide](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)
+- [Coding Style Guide](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
    Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc.
 
 The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks your language, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been written into your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
