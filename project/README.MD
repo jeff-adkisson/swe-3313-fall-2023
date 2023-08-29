@@ -176,7 +176,11 @@ Once your team is ready, post your team information on this [Google Spreadsheet]
 
 ![image-20230828112300795](README.assets/image-20230828112300795.png)
 
-NOTE: Anyone not on a team by selection day will be assigned to one by me. If you are uncomfortable finding teammates, it will not be a problem.
+### I Do Not Know Anyone... I Never Get Picked for Teams... I Have Social Anxiety... It is September 21 and I am NOT on a Team... 
+
+None of this is a problem.
+
+Anyone not on a team by selection day will be assigned to one by me. If you are have difficulty finding teammates regardless of the reason, it will work out fine.
 
 -----
 
@@ -238,8 +242,8 @@ Since every team will have the same milestone dates, most of these will look sim
 
 ### Why Is The Project Plan Only 5% of the Grade?
 
-1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation.
-2. This part is pretty easy. I give you the dates and milestones. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
+1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation. Over and over I will stress that you need to perform as if you were being paid by a customer to do this work - not just getting a grade in a core class.
+2. This part is easy relative to the rest of the project. I give you the dates and milestones and you will back into a project plan and Gantt chart. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
 
 ### Detailed Component Requirements and Grading Rubric
 
