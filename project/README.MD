@@ -147,11 +147,24 @@ No matter what you do, make sure this is never a popularity contest. Keep this a
 
 --------
 
+# SWE 3313 Project Components
+
+- [Team Selection](#team-selection)
+- [Project Plan](#project-plan)
+- [Requirements](#requirements)
+- [User Interface Design](#user-interface-design)
+- [Technical Design](#technical-design)
+- [Implementation](#implementation)
+- [Final Presentation](#final-presentation)
+- [Peer Evaluation](#peer-evaluation)
+
+---
+
 ## Team Selection
 
 `Complete team selection by September 21, 2023`
 
-`Complete technology selection by October 10, 2023`
+`Complete technology selection by October 10, 2023 (same day Project Plan is due)`
 
 As of August 26, there are 38 students in this course. Therefore, there will be 8 teams of 4 and 2 teams of 3. The teams with 3 students will get a bit of flexibility in grading (but not deadlines) since they have 25% less brainpower to complete the project (also remember that fewer teammates can be good since it's less to coordinate - I personally do not think a smaller team is any disadvantage).
 
@@ -170,17 +183,15 @@ Choose your teammates wisely. I recommend thinking about the various competencie
 - Presentation<br/>
    Every component (Project Plan, Requirements, etc.) includes a video presentation. This is where you will take the finished work you are delivering and produce a short 5 minute video describing what was done. This is where you are convincing your customer (me) that the work you are doing is high quality, meets or exceeds expectations, and that I can be confident you are on the right path.
 
-After considering these notes, put together your teams. You will tell me your teammates after Exam 1. On that day, I will provide you access to YouTrack, the system we will use to build your project plan, requirements, and technical design. Professional engineers typically use online tracking systems like YouTrack to manage large projects instead of Word, Excel, etc. We will do the same.
-
-Once your team is ready, post your team information on this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1HAYA4j73sbCi0KeXlEjSr-4Po-mB3QXsVpAHA1ZZQbQ/edit?usp=sharing). Read the Instructions tab, then select an unused team sheet and complete the required information. Do not modify the spreadsheet or change another team's information. 
-
-![image-20230828112300795](README.assets/image-20230828112300795.png)
-
 ### I Do Not Know Anyone... I Never Get Picked for Teams... I Have Social Anxiety... It is September 21 and I am NOT on a Team... 
 
 None of this is a problem.
 
 Anyone not on a team by selection day will be assigned to one by me. If you are have difficulty finding teammates regardless of the reason, it will work out fine.
+
+### Instructions and Grading Rubric
+
+[Team Selection Instructions and Grading Rubric](details-team-selection.md)
 
 -----
 
@@ -190,10 +201,11 @@ Anyone not on a team by selection day will be assigned to one by me. If you are 
 
 `Due Tues, Oct  10, 2023, Post plan and chart in YouTrack, post project link in D2L assignment folder`
 
-This component has two parts:
+This component has three parts:
 
 - Technology Selection
-- Generating Initial Project Plan in YouTrack
+- Generating a Project Plan and Gantt chart in YouTrack
+- Producing a 5 minute video presentation of your project plan
 
 ### Technology Selection
 
@@ -230,7 +242,7 @@ Often your client will tell you what language and frameworks to use and you have
 
 **IMPORTANT NOTE:** Start thinking about *how* your system will retrieve and store data. Your choices include CSV, JSON, and SQL. Your data must be written storage - it will not only live in memory - and be available after restarting the application. You do not have to select this mechanism until [Technical Design](#technical-design), but you need to start thinking about it and doing some research. Many of the frameworks I listed include libraries to help with this requirement. I always give an *optional* JSON lecture for those of you who want to use this valuable technique. If you choose SQL, I recommend considering something embedded like [SQLite](https://www.sqlite.org/index.html) that does not require a server installation. If you do require a server for storage, consider something cloud-based or that runs in a Docker container to simplify installation (Postgres is a great solution, for example for both Docker and free/almost free cloud solutions).
 
-### Generating Initial Project Plan in YouTrack
+### Creating Your Project Plan in YouTrack
 
 You will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. I will give you the milestone dates. You will decompose the milestones into into epics and stories, assign each a priority and team member(s), and order them in a Gantt chart.
 
@@ -245,9 +257,9 @@ Since every team will have the same milestone dates, most of these will look sim
 1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation. Over and over I will stress that you need to perform as if you were being paid by a customer to do this work - not just getting a grade in a core class.
 2. This part is easy relative to the rest of the project. I give you the dates and milestones and you will back into a project plan and Gantt chart. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Project Plan Instructions and Grading Rubric](details-project-plan.md)
 
 -----
 
@@ -278,9 +290,9 @@ After your requirements are complete and available in YouTrack, you will once ag
 
 Do not forget that you can get up to two extra points on your final grade visiting the Writing Center (1 visit = 1 point, 2 visits = 2 points).
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Requirements Instructions and Grading Rubric](details-requirements.md)
 
 -----
 
@@ -316,9 +328,9 @@ Make *sure* you are designing something that you are capable of producing in you
 
 As always, you will produce a 5 minute video presentation showing your UI design. Like before, it will be professional-grade, well-organized, and highlight the features your client (me) will find most interesting or high priority.
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[User Interface Design Instructions and Grading Rubric](details-user-interface-design.md)
 
 ----
 
@@ -353,9 +365,9 @@ After your Technical Design is complete, you will produce yet another 5 minute v
 
 Do not forget that you can get up to two extra points on your final grade visiting the Writing Center (1 visit = 1 point, 2 visits = 2 points).
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Technical Design Instructions and Grading Rubric](details-technical-design.md)
 
 ---
 
@@ -404,9 +416,9 @@ PRO TIP 2: I will not hire an experienced engineer who says they do not care wha
 
 PRO TIP 3: I love mechanical keyboards. Not really a tip, but we are talking about important tools here. If you haven't tried one, you might be missing out on a very sublime experience. 
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Implementation Instructions and Grading Rubric](details-implementation.md)
 
 -----
 
@@ -437,9 +449,9 @@ Presentation order will be randomly selected (except late teams, which must pres
 - Presentations 1-5 on Thurs Nov 30
 - Presentations 6-10 on Tues Dec 5
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Final Presentation Instructions and Grading Rubric](details-final-presentation.md)
 
 -----
 
@@ -468,6 +480,6 @@ Generally the only students who get poor scores from their teammates were the st
 
 So be a great team member and step up to the project. If you are not a great coder, help the great coder in the group test. If you are not a great writer, proofread the requirements. If you are the leader, do not be an a-hole, work on your diplomacy, and learn a bit about [Servant Leadership](https://www.forbes.com/sites/forbescoachescouncil/2020/03/11/traditional-leadership-vs-servant-leadership/?sh=493498c6451e). This project covers many disciplines, so everyone has a chance to be a great contributor for some piece of it.
 
-### Detailed Component Requirements and Grading Rubric
+### Instructions and Grading Rubric
 
-*Coming soon.*
+[Peer Evaluation Instructions and Grading Rubric](details-peer-evaluation.md)
