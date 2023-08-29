@@ -7,8 +7,7 @@ This course has a large team project that starts immediately after Exam 1. You s
 This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade (300 of 600 total points).
 
 - [Team Selection](#team-selection)<br/>
-   
-   Not graded
+  Not graded
    Due Thurs Sept 21
 - [Project Plan](#project-plan)<br/>
    15 points, 5% of total
@@ -130,11 +129,29 @@ Also, team members let you down sometimes, even in excellent teams. Sometimes pe
 
 Whatever the reason, if your team fails on one piece, do not let it demoralize you. There are many pieces in this project and a single bad grade will not hurt your team overly much. I know grades are important, but in the long run, learning from failure is even more valuable.
 
+---
+
+## Problems with a Team Member
+
+Sometimes a team has a member that does not do their part.
+
+This is, unfortunately, a realistic situation. It happens in professional practice as well. It is taxing for leaders and team members alike. It will try your patience and demonstrate to you how difficult it can be to lead a complex project.
+
+If you have serious problems with a team member, talk to me AFTER you try to manage the situation. Diplomatically explain your concerns and try to find some common ground. Do this in person - not over something less personal like texting or email. Do not criticize. Stick to the facts. Also do not make it 3 on 1 so the person you are speaking with does not feel threatened. Sometimes a personal chat is all that is needed.
+
+One thing I encourage you to do is *never* let someone else drag your grade down. I have known students who took a bad team score because they did not want to see a lackluster team member get a good grade as a result of their hard work. I understand your frustration, but ultimately it is not the grade that matters - it is your experience and capability. Before you let your project suffer because you do not want to carry someone who is not performing appropriately, remember that they may benefit in the short term from your hard work, but in the long run only you will succeed. 
+
+Also remember that you will do peer review at the end of the project and it is 10% of the project grade, so underperforming team members will not get the same grade as everyone else on the team.
+
+No matter what you do, make sure this is never a popularity contest. Keep this about the work.
+
 --------
 
 ## Team Selection
 
-`Complete by September 21, 2023`
+`Complete team selection by September 21, 2023`
+
+`Complete technology selection by October 10, 2023`
 
 As of August 26, there are 38 students in this course. Therefore, there will be 8 teams of 4 and 2 teams of 3. The teams with 3 students will get a bit of flexibility in grading (but not deadlines) since they have 25% less brainpower to complete the project (also remember that fewer teammates can be good since it's less to coordinate - I personally do not think a smaller team is any disadvantage).
 
@@ -169,40 +186,10 @@ NOTE: Anyone not on a team by selection day will be assigned to one by me. If yo
 
 `Due Tues, Oct  10, 2023, Post plan and chart in YouTrack, post project link in D2L assignment folder`
 
-In this component, you will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. I will give you the milestone dates. You will decompose the milestones into tasks that do not exceed 3 days, assign each a priority and team member(s), and order them in a Gantt chart.
+This component has two parts:
 
-Your recorded presentation will present your plan within 5 minutes. I want you to think of every presentation in this project as a mechanism to build confidence in your client that the project is heading toward success, demonstrate technical proficiency, and help your client understand the decisions your team is making. Your client (me) wants reassurance your team is on the right path. I recommend putting some thought into your presentations. You will do this for real customers in your career, so do not write this off as just something to appease your professor. Carefully organize your presentations. I do not recommend submitting the first one you produce any more than you would submit the first draft of an essay as a final report.
-
-You will check your video presentation into your team's Github repository. Your submission on D2L will include the link to the presentation and a link to your YouTrack Gantt chart (not a screenshot).
-
-Since every team will have the same milestone dates, most of these will look similar at the macro level, but will vary significantly in the task breakdown. That is fine... there are many ways to perform this project.
-
-### Why Is The Project Plan Only 5% of the Grade?
-
-1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation.
-2. This part is pretty easy. I give you the dates and milestones. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
-
-### Detailed Component Requirements and Grading Rubric
-
-*Coming soon.*
-
------
-
-## Requirements
-
-`10%, 30 of 300 points`
-
-`Due Tues, Oct  24, 2023 Post requirements in YouTrack, post project link in D2L assignment folder`
-
-This component has three sections:
-
-- Requirements Elicitation
 - Technology Selection
-- Requirements Writing and Presentation
-
-### Requirements Elicitation
-
-This component will begin with a Requirements Elicitation interview between everyone in our course and your client (me). Everyone can ask questions to better understand the project. This is your opportunity to better understand what I consider success, what requirements are most important to me, etc. We will record the session in case anyone wants to refer to it later.
+- Generating Initial Project Plan in YouTrack
 
 ### Technology Selection
 
@@ -239,7 +226,43 @@ Often your client will tell you what language and frameworks to use and you have
 
 **IMPORTANT NOTE:** Start thinking about *how* your system will retrieve and store data. Your choices include CSV, JSON, and SQL. Your data must be written storage - it will not only live in memory - and be available after restarting the application. You do not have to select this mechanism until [Technical Design](#technical-design), but you need to start thinking about it and doing some research. Many of the frameworks I listed include libraries to help with this requirement. I always give an *optional* JSON lecture for those of you who want to use this valuable technique. If you choose SQL, I recommend considering something embedded like [SQLite](https://www.sqlite.org/index.html) that does not require a server installation. If you do require a server for storage, consider something cloud-based or that runs in a Docker container to simplify installation (Postgres is a great solution, for example for both Docker and free/almost free cloud solutions).
 
-### Requirements + Presentation
+### Generating Initial Project Plan in YouTrack
+
+You will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. I will give you the milestone dates. You will decompose the milestones into into epics and stories, assign each a priority and team member(s), and order them in a Gantt chart.
+
+Your recorded presentation will present your plan within 5 minutes. I want you to think of every presentation in this project as a mechanism to build confidence in your client that the project is heading toward success, demonstrate technical proficiency, and help your client understand the decisions your team is making. Your client (me) wants reassurance your team is on the right path. I recommend putting some thought into your presentations. You will do this for real customers in your career, so do not write this off as just something to appease your professor. Carefully organize your presentations. I do not recommend submitting the first one you produce any more than you would submit the first draft of an essay as a final report.
+
+You will check your video presentation into your team's Github repository. Your submission on D2L will include the link to the presentation and a link to your YouTrack Gantt chart (not a screenshot).
+
+Since every team will have the same milestone dates, most of these will look similar at the macro level, but will vary significantly in the task breakdown. That is fine... there are many ways to perform this project.
+
+### Why Is The Project Plan Only 5% of the Grade?
+
+1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation.
+2. This part is pretty easy. I give you the dates and milestones. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
+
+### Detailed Component Requirements and Grading Rubric
+
+*Coming soon.*
+
+-----
+
+## Requirements
+
+`10%, 30 of 300 points`
+
+`Due Tues, Oct  24, 2023 Post requirements in YouTrack, post project link in D2L assignment folder`
+
+This component has three sections:
+
+- Requirements Elicitation
+- Requirements Writing and Presentation
+
+### Requirements Elicitation
+
+This component will begin with a Requirements Elicitation interview between everyone in our course and your client (me). Everyone can ask questions to better understand the project. This is your opportunity to better understand what I consider success, what requirements are most important to me, etc. We will record the session in case anyone wants to refer to it later.
+
+### Requirements Writing and Presentation
 
 Following Technology Selection, each team will produce a detailed set of requirements broken into Epics and Stories with each Epic assigned to a specific Milestone in your Project Plan. You will also estimate the effort for each Story. Note that we will cover Epics and Stories when we study Agile methods.
 
@@ -318,9 +341,9 @@ Your Technical Design will include:
 - [Coding Style Guide](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
    Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc.
 
-The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks your language, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been written into your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
+The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks your language, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been covered in your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
 
-After your Technical Design is complete, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me, but not in guise of your client). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective.
+After your Technical Design is complete, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective and try to focus on high priority features and high risk areas of concern.
 
 ### Writing Center Bonus
 
