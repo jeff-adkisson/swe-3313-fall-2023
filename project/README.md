@@ -7,32 +7,31 @@ This course has a large team project that starts immediately after Exam 1. You s
 This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade (300 of 600 total points).
 
 - [Team Selection](#team-selection)<br/>
-  Not graded
+  Not graded<br/>
    Due Thurs Sept 21
 - [Project Plan](#project-plan)<br/>
-   15 points, 5% of total
+   15 points, 5% of total<br/>
    Due Tues Oct 10
 - [Requirements](#requirements)<br/>
-   30 points, 10% of total
+   30 points, 10% of total<br/>
    Due Tues Oct 24 
 - [User Interface Design](#user-interface-design)<br/>
-   30 points, 10% of total
+   30 points, 10% of total<br/>
    Due Thurs Nov 2
 - [Technical Design](#technical-design)<br/>
-   30 points, 10% of total
+   30 points, 10% of total<br/>
    Due Thurs Nov 9
 - [Implementation](#implementation)<br/>
-   105 points, 35% of total
+   105 points, 35% of total<br/>
    Due Thurs Nov 30
 - [Final Presentation](#final-presentation)<br/>
-   60 points, 20% of total
-   Due Thurs Nov 30
+   60 points, 20% of total<br/>
+   Due Thurs Nov 30 *(even if you present on Dec 5)*<br/>
    Presentation order will be randomly selected (except late teams, which must present on Dec 5)
-   
    - Presentations 1-5 on Thurs Nov 30
    - Presentations 6-10 on Tues Dec 5
 - [Peer Evaluation](#peer-evaluation)<br/>
-   30 points, 10% of total
+   30 points, 10% of total<br/>
    Due Tues Dec 5
 
 ---
