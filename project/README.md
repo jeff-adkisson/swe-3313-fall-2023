@@ -221,7 +221,7 @@ After Requirements Elicitation, each team will decide and report to me the follo
    Your choices here will be constrained by the language your team chooses and whether the solution is web-based or desktop-based. Examples include:
    - Java + Web : Grails, Spring, Struts (note I recommend avoiding JSP - it's too old-school IMO)
    - Java + Desktop : Swing, JavaFX
-   - C# + Web : ASPNET Core (note I recommend avoiding WinForms - it's too old-school IMO)
+   - C# + Web : ASPNET Core (note I recommend avoiding WebForms - it's too old-school IMO)
    - C# + Desktop : MAUI, Winforms (MAUI is much newer and cross-platform, but still a bit immature)
    - Python + Web : Django, Flask
    - Python + Desktop : PyQT, TKinter
