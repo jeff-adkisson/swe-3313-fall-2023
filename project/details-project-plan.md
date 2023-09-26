@@ -4,29 +4,32 @@
 
 ## Deliverables
 
-All deliverables will be in your team Github repo unless otherwise noted.
+All deliverables will be in your team Github repo or YouTrack.
 
 All deliverable documentation will be written in [Markdown](https://www.markdownguide.org/getting-started/). Your Gantt chart will be produced in [YouTrack](https://www.jetbrains.com/youtrack/). Your presentation will be produced in whatever video recording software you prefer.
 
-Your deliverables include:
+Your deliverables for this component include:
 
-1.  Introduction (Github)
-2.  Team resumes (Github)
-3.  Team assignments (Github)
-4.  Technology selection (Github)
+1.  Introduction (Github/Markdown)
+2.  Team resumes (Github/Markdown)
+3.  Team assignments (Github/Markdown)
+4.  Technology selection (Github/Markdown)
 5.  Project plan milestones, epics and stories and Gantt chart (YouTrack)
-6.  3-5 minute video presentation describing your plan, technology selection and team assignments (Github)
+6.  3-5 minute recorded video presentation describing your plan, technology selection and team assignments (post to Github)
 
 ### Access to YouTrack
 
 Jeff will provide each team with YouTrack accounts by Thursday, 9/28. Your YouTrack username will be your KSU email address. Your default YouTrack password will be **Swe3313!Fall2023**.
 
+*I WILL POST MORE SPECIFIC INSTRUCTIONS INCLUDING THE LOGIN URL ON 9/28/2023*.
+
 ## Requirements
 
 1.  [Very carefully read the Project Plan section in the main README file.](README.md#project-plan) 
-    I recommend printing it and carefully highlighting/commenting everything in that section.
+    I recommend printing it and carefully highlighting/commenting everything in that section. It is very detailed and I have high expectations for each team.
 2.  Check all documentation into your team Github repo. Make sure all documentation is linked, organized, spell checked, and grammatically correct.
 3.  Check your video presentation into your team Github repo. Create a folder called "presentations". Name the presentation "1-project-plan-presentation.[extension]" [Free Github accounts do not allow massive files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), so be sure to compress your presentation a bit (not zipped [which won't help anyway] - [just shrink it to a smaller size where it's still high-resolution](https://multimedia.easeus.com/video-converter-tips/compress-video-vlc.html). Large files like video can be made to fit on Github easily, so be ready for this bit of effort if the original file is too big to check in without a bit of compression.
+4.  Prove you can follow my instructions. Engineering is a very precise art. Some things we design, other things we follow. Here you are designing your project plan and carefully following my requirements to execute and submit the work.
 
 ### Submission Steps
 
