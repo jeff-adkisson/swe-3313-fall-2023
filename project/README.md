@@ -1,6 +1,6 @@
 # SWE 3313 Project Introduction
 
-`Revised Aug 28, 2023`
+`Revised Sept 26, 2023`
 
 This course has a large team project that starts immediately after Exam 1. You should start thinking about it now and considering who to add to your team.
 
@@ -11,10 +11,10 @@ This project attempts to simulate the software development process a small team 
    Due Thurs Sept 21
 - [Project Plan](#project-plan)<br/>
    15 points, 5% of total<br/>
-   Due Tues Oct 10
+   Due Thurs Oct 12
 - [Requirements](#requirements)<br/>
    30 points, 10% of total<br/>
-   Due Tues Oct 24 
+   Due Thurs Oct 26 
 - [User Interface Design](#user-interface-design)<br/>
    30 points, 10% of total<br/>
    Due Thurs Nov 2
@@ -188,6 +188,10 @@ None of this is a problem.
 
 Anyone not on a team by selection day will be assigned to one by me. If you are have difficulty finding teammates regardless of the reason, it will work out fine.
 
+### Example Team Selection Spreadsheet
+
+![image-20230828112300795](README.assets/image-20230828112300795.png)
+
 ### Instructions and Grading Rubric
 
 [Team Selection Instructions and Grading Rubric](details-team-selection.md)
@@ -198,7 +202,7 @@ Anyone not on a team by selection day will be assigned to one by me. If you are 
 
 `5%, 15 of 300  points`
 
-`Due Tues, Oct  10, 2023, Post plan and chart in YouTrack, post project link in D2L assignment folder`
+`Due Tues, Oct  10, 2023`
 
 This component has three parts:
 
@@ -241,9 +245,77 @@ Often your client will tell you what language and frameworks to use and you have
 
 **IMPORTANT NOTE:** Start thinking about *how* your system will retrieve and store data. Your choices include CSV, JSON, and SQL. Your data must be written storage - it will not only live in memory - and be available after restarting the application. You do not have to select this mechanism until [Technical Design](#technical-design), but you need to start thinking about it and doing some research. Many of the frameworks I listed include libraries to help with this requirement. I always give an *optional* JSON lecture for those of you who want to use this valuable technique. If you choose SQL, I recommend considering something embedded like [SQLite](https://www.sqlite.org/index.html) that does not require a server installation. If you do require a server for storage, consider something cloud-based or that runs in a Docker container to simplify installation (Postgres is a great solution, for example for both Docker and free/almost free cloud solutions).
 
+#### Technology Description
+
+Now that you have your technology plan, you will produce a Markdown document that you will post in your team Github repo that describes what you selected and (briefly) WHY you selected. I will be looking for what languages, frameworks, and data storage plan you are selecting. Links to the sites that describe the technologies are always useful as well.
+
 ### Creating Your Project Plan in YouTrack
 
-You will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. I will give you the milestone dates. You will decompose the milestones into into epics and stories, assign each a priority and team member(s), and order them in a Gantt chart.
+You will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. 
+
+You will use the project deadlines in the course calendar as your milestone date.
+
+You will decompose the milestones into into epics and stories, assign each a priority and team member(s), and order them in a Gantt chart.
+
+Here is an example Gantt chart drawn in YouTrack:
+
+![project-plan-screenshot](README.assets/project-plan-screenshot.png)
+
+Gantt chart components you will use:
+
+-  **Milestone** - Represents something you are delivering. See the course calendar's project deadlines. For example, "Project Plan". Your Milestone should be short and does not require a verb. Your milestones are:
+   -  Project Plan
+   -  Requirements
+   -  User Interface Design
+   -  Technical Design
+   -  Implementation
+   -  Final Presentation
+
+-  **Epic** - Represents a grouping of stories. For example, "Produce video presentation". Every epic must contain a verb. Epics sit under milestones.
+-  **Story** - The lowest level of detail needed in this project plan. For example, "Script and record video presentation" and "Post video presentation to team Github repo". Every story needs a verb. Stories sit under epics.
+
+I also recommend showing holidays such as Thanksgiving break in your chart similar to the Exam 1 and Exam 2 notations in the example I drew. These will help your customer see what else is going on during the project.
+
+#### Association Lines
+
+Your epics and stories will logically show the start and finish dates for each epic and story. You will connect each milestone to the next milestone with a single association line like you see represented  the example Gantt chart above.
+
+Do not show everything starting and finishing on the same day. That will not get you a good score. Really consider what has to be done, break down the tasks, and put them in the proper order. You are <u>*estimating*</u> the effort. You do not need to assign people to these entries. A top score on this part of the project will show me a project plan I can understand and hopefully see that you have carefully considered how each piece fits together.
+
+#### Content in each Milestone / Epic / Story YouTrack Entry
+
+You do not need to write anything additional in the entries for each item you put in YouTrack issue tracker. All that is necessary (though you can do more) is the name, association, and start/end dates.
+
+### Team Resumes
+
+Each member of your team needs a *one page* resume describing:
+
+-  Your technical capabilities - languages, software, etc. Do not list things like Microsoft Office or Google Docs. Keep it interesting. 
+-  Your technical experience. If you do not have any internship credits or professional work, list things like Hackathon or Game Day participation. If you have none of that, list the classes you have taken that contribute to your CS or SWE degree.
+-  Your full name and KSU email address. Do not list any personal contact information.
+-  Links to anything relevant such as a Github repo, StackOverflow reputation page, LinkedIn, etc.
+
+Resume Format:
+
+-  All resumes will be written in Markdown (not PDF or Word or TXT and posted in your team Github repo. 
+-  All resumes will use the same format.
+-  All resumes must be spell checked and use proper grammar. 
+-  Choose something professional for all of your resumes. [Here's a resource to consider (and there are many more, so do your research).](https://workwithcarolyn.com/blog/digital-cv-guide)
+
+### Team Assignments
+
+Here you will list the primary duties of each member of your team along with links to their resumes.
+
+For example:
+
+-  Jeff Adkisson [link to resume]
+   *Jeff is the project leader. Additionally, Jeff will support the coding effort and will record all of the presentations except the Final Presentation.*
+
+Note that team assignments CAN AND WILL change. All you are doing here is trying to figure out the roles each of you want to perform. By the end of the project, it's likely these roles will differ from what you plan here.
+
+Remember that everyone must contribute and you need to try to distribute the effort as evenly as possible.
+
+### Video Presentation
 
 Your recorded presentation will present your plan within 5 minutes. I want you to think of every presentation in this project as a mechanism to build confidence in your client that the project is heading toward success, demonstrate technical proficiency, and help your client understand the decisions your team is making. Your client (me) wants reassurance your team is on the right path. I recommend putting some thought into your presentations. You will do this for real customers in your career, so do not write this off as just something to appease your professor. Carefully organize your presentations. I do not recommend submitting the first one you produce any more than you would submit the first draft of an essay as a final report.
 
@@ -251,14 +323,53 @@ You will check your video presentation into your team's Github repository. Your 
 
 Since every team will have the same milestone dates, most of these will look similar at the macro level, but will vary significantly in the task breakdown. That is fine... there are many ways to perform this project.
 
+Your 3 to 5 minute presentation will be a screen recording with audio including:
+
+-  A very short introduction to your team.
+-  The technologies you plan to use and briefly explain why you chose them.
+-  A visual review of your project plan. 
+-  During your presentation, call out any risks you see. There is risk, so do not forget to do this. Learning to spot and manage risk early is essential to this course.
+
+Make sure your audio is clear and free of background noise. The presentation is an audio/screen recording of your screen showing your Github material and project plan. You do not need a face recorded in the video.
+
+### Written Introduction
+
+Your team Github repo will have a README in the root in the repo that includes the following:
+
+-  A short introduction to the project and what you plan to produce. For example:
+   Welcome to the project repository for **Jeff's Super Team of Himself!*. Here you will find all of the artifacts, presentations, documentation, and source code for our SWE  3313 class project.
+
+   We will create a small e-commerce website using Svelte and Express along with PostgresSQL to sell one-of-a-kind vintage motorcycles. 
+
+-  Meet Our Team
+   Put links to each of your teammates' Markdown resume files.
+
+-  Team Assignments
+   Link to your team assignments Markdown file.
+
+-  Technology Selection
+   Link to your technology selection writeup Markdown file.
+
+-  Project Plan
+   Link to your YouTrack Gantt chart.
+
+-  Project Plan Video Presentation
+   Link to your project plan's video presentation checked into your team repo.
+
+[Your written introduction should use good Markdown structure for headers, links, etc.](https://www.markdownguide.org/basic-syntax/) I like writing Markdown in [Typora](https://typora.io/). It has spell checking and other nice features. It has a free trial (I paid for mine - it's worth it). You can find many other free Markdown editors for your system or just write Markdown in [VS Code](https://code.visualstudio.com/docs/languages/markdown) or your IDE. Markdown is very accessible and does not require any fancy software.
+
+### Team Github Repo
+
+I will be using the GitHub repo link in the project spreadsheet to reach your team's work. EVERYTHING in this project except what is hosted in YouTrack will be checked into your team Github repo.
+
 ### Why Is The Project Plan Only 5% of the Grade?
 
 1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation. Over and over I will stress that you need to perform as if you were being paid by a customer to do this work - not just getting a grade in a core class.
-2. This part is easy relative to the rest of the project. I give you the dates and milestones and you will back into a project plan and Gantt chart. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
+2. This part is easy relative to the rest of the project (it has a lot of little pieces, but none are technically challenging). I give you the dates and milestones and you will back into a project plan and Gantt chart. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
 
-### Instructions and Grading Rubric
+### Submission and Grading Rubric
 
-[Project Plan Instructions and Grading Rubric](details-project-plan.md)
+[Project Plan Submission and Grading Rubric](details-project-plan.md)
 
 -----
 
