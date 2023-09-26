@@ -163,7 +163,7 @@ No matter what you do, make sure this is never a popularity contest. Keep this a
 
 `Complete team selection by September 21, 2023`
 
-`Complete technology selection by October 10, 2023 (same day Project Plan is due)`
+`Complete technology selection by October 12, 2023 (same day Project Plan is due)`
 
 As of August 26, there are 38 students in this course. Therefore, there will be 8 teams of 4 and 2 teams of 3. The teams with 3 students will get a bit of flexibility in grading (but not deadlines) since they have 25% less brainpower to complete the project (also remember that fewer teammates can be good since it's less to coordinate - I personally do not think a smaller team is any disadvantage).
 
@@ -202,13 +202,13 @@ Anyone not on a team by selection day will be assigned to one by me. If you are 
 
 `5%, 15 of 300  points`
 
-`Due Tues, Oct  10, 2023`
+This component has numerous parts:
 
-This component has three parts:
-
+- Introduction
+- Team Resumes and Team Assignments
 - Technology Selection
 - Generating a Project Plan and Gantt chart in YouTrack
-- Producing a 5 minute video presentation of your project plan
+- Producing a 3-5 minute video presentation of your project plan
 
 ### Technology Selection
 
@@ -359,19 +359,19 @@ Your team Github repo will have a README in the root in the repo that includes t
 
    We will create a small e-commerce website using Svelte and Express along with PostgresSQL to sell one-of-a-kind vintage motorcycles. 
 
--  Meet Our Team
+-  **Meet Our Team**
    Put links to each of your teammates' Markdown resume files.
 
--  Team Assignments
+-  **Team Assignments**
    Link to your team assignments Markdown file.
 
--  Technology Selection
+-  **Technology Selection**
    Link to your technology selection writeup Markdown file.
 
--  Project Plan
+-  **Project Plan**
    Link to your YouTrack Gantt chart.
 
--  Project Plan Video Presentation
+-  **Project Plan Video Presentation**
    Link to your project plan's video presentation checked into your team repo.
 
 [Your written introduction should use good Markdown structure for headers, links, etc.](https://www.markdownguide.org/basic-syntax/) I like writing Markdown in [Typora](https://typora.io/). It has spell checking and other nice features. It has a free trial (I paid for mine - it's worth it). You can find many other free Markdown editors for your system or just write Markdown in [VS Code](https://code.visualstudio.com/docs/languages/markdown) or your IDE. Markdown is very accessible and does not require any fancy software.
