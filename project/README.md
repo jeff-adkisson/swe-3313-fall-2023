@@ -1,4 +1,4 @@
-# SWE 3313 Project Introduction
+# SWE 3313 Fall 2023 Project
 
 `Revised Sept 26, 2023`
 
@@ -247,7 +247,13 @@ Often your client will tell you what language and frameworks to use and you have
 
 #### Technology Description
 
-Now that you have your technology plan, you will produce a Markdown document that you will post in your team Github repo that describes what you selected and (briefly) WHY you selected. I will be looking for what languages, frameworks, and data storage plan you are selecting. Links to the sites that describe the technologies are always useful as well.
+Now that you have your technology plan, you will produce a Markdown document that you will post in your team Github repo that describes what you selected and (briefly) WHY you selected. I will be looking for what languages, frameworks, and data storage plan you are selecting. Links to the sites that describe the technologies are always useful as well. You also need to list the operating system and other requirements necessary to use your software.
+
+1.  Language(s)
+2.  Framework(s)
+3.  Storage plan
+4.  Operating environment(s)
+5.  Any other software necessary to build and use your implementation
 
 ### Creating Your Project Plan in YouTrack
 
