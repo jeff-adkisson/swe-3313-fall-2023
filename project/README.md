@@ -267,6 +267,8 @@ Here is an example Gantt chart drawn in YouTrack:
 
 ![project-plan-screenshot](README.assets/project-plan-screenshot.png)
 
+[DIRECT LINK TO FULL SIZE IMAGE](https://raw.githubusercontent.com/jeff-adkisson/swe-3313-fall-2023/main/project/README.assets/project-plan-screenshot.png)
+
 Gantt chart components you will use:
 
 -  **Milestone** - Represents something you are delivering. See the course calendar's project deadlines. For example, "Project Plan". Your Milestone should be short and does not require a verb. Your milestones are:
@@ -291,6 +293,16 @@ Do not show everything starting and finishing on the same day. That will not get
 #### Content in each Milestone / Epic / Story YouTrack Entry
 
 You do not need to write anything additional in the entries for each item you put in YouTrack issue tracker. All that is necessary (though you can do more) is the name, association, and start/end dates.
+
+#### Notes
+
+![image-20230926144105322](README.assets/image-20230926144105322.png)
+
+![image-20230926144055229](README.assets/image-20230926144055229.png)
+
+![image-20230926144043056](README.assets/image-20230926144043056.png)
+
+
 
 ### Team Resumes
 
