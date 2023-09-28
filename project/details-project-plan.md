@@ -19,9 +19,67 @@ Your deliverables for this component include:
 
 ### Access to YouTrack
 
-Jeff will provide each team with YouTrack accounts by Thursday, 9/28. Your YouTrack username will be your KSU email address. Your default YouTrack password will be **Swe3313!Fall2023**.
+Each student has a license and team assignment in YouTrack.
 
-*I WILL POST MORE SPECIFIC INSTRUCTIONS INCLUDING THE LOGIN URL ON 9/28/2023*.
+#### To register to use YouTrack:
+
+1.  Find the invitation you received to join YouTrack in your KSU inbox sent on Wed Sept 27.
+2.  Click on the registration link.
+    ![image-20230927204123599](details-project-plan.assets/image-20230927204123599.png)
+
+3.  Enter a strong password:
+    ![image-20230927204223775](details-project-plan.assets/image-20230927204223775.png)
+
+4.  You will see your team's dashboard:
+    ![image-20230927204718573](details-project-plan.assets/image-20230927204718573.png)
+
+#### To login to YouTrack
+
+1.  Go to https://adkisson-swe-f23.youtrack.cloud
+2.  Login with your KSU email address and password you set during your first visit to YouTrack.
+
+#### I Forgot My YouTrack Password
+
+1.  Go to https://adkisson-swe-f23.youtrack.cloud
+2.  Click **Reset password**
+    ![image-20230927205325269](details-project-plan.assets/image-20230927205325269.png)
+3.  Enter your KSU email address:
+    ![image-20230927205407714](details-project-plan.assets/image-20230927205407714.png)
+4.  Check your email and click the **Reset Password** link.
+    ![image-20230927205455370](details-project-plan.assets/image-20230927205455370.png)
+
+### DO NOT WAIT TO LOGIN TO YOUTRACK
+
+Do not find out your YouTrack account is not configured properly at the last minute.
+
+Login to YouTrack immediately. Remember your password.
+
+If you have trouble after following these instructions carefully, send me an email with a detailed description of your problem.
+
+You also need to verify with each of your teammates that they can login and have access to the same team you are on.
+
+If you think I made a mistake (it's possible), email me as soon as possible. I will not be fixing things at the last minute.
+
+After you login the first time, click the Projects link and verify your team is present:
+
+![image-20230927220842140](details-project-plan.assets/image-20230927220842140.png)
+
+### Access to JetBrains IDEs
+
+Each student has a license to all JetBrains products via an educational license.
+
+You can also just get your own via https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers-. All you need is a .EDU address.
+
+To use the license I have provided you:
+
+1.  Install a JetBrains IDE such as Rider (C#), IntelliJ (Java), etc.
+2.  From the license screen, select **License server**, then paste `https://ksu-adkisson.fls.jetbrains.com/` into the **Server address** field.
+3.  Finally, click **Activate**.
+4.  You will be redirected to a browser window where you will have to create a JetBrains education account. You *must* use your `@Kennesaw.edu` email address to use the licenses I have provided. A personal address will not work.
+
+These are free licenses. If you have trouble using them, I cannot offer you technical support.
+
+If you have problems using the classroom-provided IDE licenses, just get an education license of your own. https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers-. I used these licenses all through graduate school.
 
 ## Requirements
 
