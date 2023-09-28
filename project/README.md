@@ -302,7 +302,11 @@ You do not need to write anything additional in the entries for each item you pu
 
 ![image-20230926144043056](README.assets/image-20230926144043056.png)
 
+#### Documentation for YouTrack Gantt Charts
 
+https://www.jetbrains.com/help/youtrack/server/Gantt-Chart.html#gantt-chart-example
+
+https://www.youtube.com/live/jXBo-RasY3g?si=DOLYqb86P2J8mhCs&t=1566
 
 ### Team Resumes
 
