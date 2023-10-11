@@ -399,24 +399,141 @@ I will be using the GitHub repo link in the project spreadsheet to reach your te
 
 `10%, 30 of 300 points`
 
-`Due Tues, Oct  24, 2023 Post requirements in YouTrack, post project link in D2L assignment folder`
+`Due Tues, Oct  24, 2023`
 
-This component has three sections:
+This component has five sections:
 
-- Requirements Elicitation
-- Requirements Writing and Presentation
+- Requirements Analysis and Elicitation
+- Short Introduction with Links to Requirements, Use Case Diagram, and Decision Table
+- Requirements Writing
+- Use Case Diagram
+- Decision Table
+- Presentation
 
-### Requirements Elicitation
+### Requirements Analysis and Elicitation
 
-This component will begin with a Requirements Elicitation interview between everyone in our course and your client (me). Everyone can ask questions to better understand the project. This is your opportunity to better understand what I consider success, what requirements are most important to me, etc. We will record the session in case anyone wants to refer to it later.
+The customer produced some notes you need to very carefully read.
 
-### Requirements Writing and Presentation
+After reading the customer's notes, paying carefully attention to what you think the customer MUST HAVE, NEEDS TO HAVE, or WANTS TO HAVE, hold an elicitation session with the customer to ask detailed questions.
 
-Following Technology Selection, each team will produce a detailed set of requirements broken into Epics and Stories with each Epic assigned to a specific Milestone in your Project Plan. You will also estimate the effort for each Story. Note that we will cover Epics and Stories when we study Agile methods.
+Take detailed notes during elicitation. Your customer is not going to be available 24/7.
 
-Your requirements will be detailed, precise, grammatically correct and correctly spelled, and well-organized. Your requirements will strive to be complete and have no errors of omission (missing requirements) or errors of inclusion (unnecessarily adding to the scope of the project). Each requirement will be assigned a priority, an estimate of effort (no more than 3 days, no less than .25 days), and one or more team members.
+Note that there is more work that can be done in a single version in the customer's notes. Your responsibility for Version 1 is to implement all of the MUST HAVE requirements. 
 
-After your requirements are complete and available in YouTrack, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. Do not just spend five minutes reading requirements. Once again, the presentation is to simulate convincing your client that you are on the path to success, that you have carefully considered and are working to managing risk, and that your project is organized and carefully planned. I should feel happy and confident after watching your presentation that your team understands the project, is not missing anything and furthermore, is not adding anything that will increase the risk of failure. Like before, carefully plan your presentation and make it professional quality.
+### Customer Notes for Requirements Elicitation
+
+It's a pleasure to work with your team to help my company sell ______( *whatever your team is selling* )__. 
+
+The new application must do a few things very well. There are some other things I need or want, but those may not make it into this first version. As you read this, I am sure you will be able to tell rapidly what I simply cannot do business without in the first version. Ask if you are not sure. 
+
+Users must be able to self-register (create their own account) and login. I also must have a more powerful "admin" user type that can login and run sales reports. Obvious admins cannot self register. All users must have a unique username and 6-character (minimum) password. To make an admin, I guess someone who is already an admin needs to be able to transform a previously registered user into an admin. It would be great if there was a simple user interface to do that.
+
+I need also ned my admins to be able to export the sales report in CSV format. I can live without this for a while, but I really need it sometime.
+
+After a user logs in (or registers), the user must see a list of all available inventory sorted by highest price to lowest price. This is the "main" screen. They cannot see anything that is already sold. The inventory must have a short name, picture, price, and brief description, plus a button to add the item to a shopping cart. Obviously the user can add multiple items to the cart. All items must have at least one picture. I'd love it if we could do multiple pictures, but I heard that might be hard in this first release, so I can live with that in the future if necessary.
+
+The user should also be able to search the inventory by typing in a search box. The system will try to match the words in the box to either the item's name or description.
+
+An item for sale might look like this:
+
+-  Name: 2016 Suzuki GSXS 1000 Motorcycle
+-  Picture: At least one photo
+-  Price: $10,000.00
+-  Description: Super clean, low mileage liter bike. Great performance, sporty look, and loaded with cool aftermarket toys.
+
+All of the prices are in US dollars and must be formatted with a $ sign and commas and decimal points. Note that a programmer friend wanted me to tell you that you must store prices in a decimal/currency format that is base-10 - not a floating point. I have no idea what that means, but he was quite adamant that I pass that factoid along.
+
+When a user decides to pay, they must click a Checkout button to start the payment process. That looks like this:
+
+1.  The user cannot click Checkout if the shopping cart is empty.
+2.  After clicking Checkout, the user must see a list of everything in the cart and a subtotal cost in US dollars. From this list, the user can remove items from the cart. If the user removes everything from the cart, take the user back to the main screen automatically.
+3.  From the shopping cart page, the user must click Pay Now to start the payment process. They also can return to shopping.
+4.  When Pay Now is clicked, the user must enter their shipping address, credit card number, phone number, and shipping speed. All fields are required. The credit card also requires the expiration month and year and the CVV security code.
+5.  Shipping speed options include: 
+    -  Overnight: $29
+    -  3-Day: $19
+    -  Ground: $0, free
+6.  After all of the fields are complete, the user must click Confirm Order.
+7.  On the Confirm Order page, you must show a list of what the user is buying (name and price only), the subtotal, tax (6% of the subtotal) shipping speed cost, and grand total. For example, if there are 3 items in the cart and all three cost a total of $325 and overnight shipping is selected, the grand total will be 325 + (325*.06) + 29 = $373.50.
+8.  To complete the transaction, the user can click Complete Order. This will take the items out of inventory and show the user's receipt. The user can also back up to the Checkout page or return to the main page. If they do not complete the order, leave whatever they have in the cart in case they check out later.
+9.  Once the user clicks Complete Order, you must show a receipt. It looks a lot like the Confirm Order page, but also must include the last four digits of the user's credit card number and their shipping address.
+10.  I also want receipts to be automatically emailed to the user, so whatever you show on the screen I'd also like that emailed to the user for their records.
+11.  Finally, the user will click OK to exit the receipt. Note that the user cannot return to the cart or payment area at this point because the cart is empty.
+12.  When the user returns to the main page, the inventory the user just bought must be gone - they cannot see it in the list or in the search page. At this point, whatever the user bought must be visible in the sales report.
+
+That sums up the user purchase experience.
+
+Administrators have a few more "powers".
+
+1.  An administrator must be able to run a sales report that shows everything purchased and who purchased it. I would LOVE it I could click on a sold item and it shows me the receipt related to that.
+2.  An administrator also needs to be able to export the sales report to CSV. This will let the admin analyze the data better in something like Excel.
+3.  Finally, administrators need some way to get inventory into the system. How will they add new inventory to the database? They need some approach. I would love it if they could open a page and enter the information (and choose a picture) and it gets added to the database. If that is too hard, they could just enter it into the database manually. Initially I just need something. My admins are not overly technical, but they could enter the information into a file or database screen if you show them how. 
+
+One last thing... I'm really worried how all of this is going to look, so I must have a high-fidelity mockup created of the screens and application flow before coding starts. I want to see how it's going to look when you finish it. I cannot really envision how things look when people just hand me a bunch of requirements, so I need you to show me what I can expect what it is all done.
+
+### Requirements Writing
+
+The project is multiple versions, but we are only implementing Version 1. You will write the requirements for *all versions* and organize your material like this:
+
+-  Version #
+   -  Milestone (from your Project Plan - say "Future" when version is greater than 1)
+      -  Epic Name and ID (write these like a use case bubble - very brief, but specific enough to be clear what we are doing)
+         -  Story Name and ID (name should also have subject and a verb, but shorter than description)
+            -  Priority (Must Have, Needs to Have, Wants to Have)
+            -  Estimated Effort (no less than 1/4 day, no greater than 5 days)
+            -  Functional or Non-Functional (choose one)
+            -  Story description (must have a subject and a verb and be long enough to prevent ambiguity)
+
+Your requirements will be detailed, precise, grammatically correct and correctly spelled, and well-organized. Your requirements will strive to be complete and have no errors of omission (missing requirements) or errors of inclusion (unnecessarily adding to the scope of the project). Each requirement will be assigned a priority, an estimate of effort (no more than 5 days, no less than .25 days), and whether it is functional or non-functional.
+
+After reading the customer's notes, you will note the customer mentions a lot of screens or pages. These hint how your application will be organized and data flows through the system. Note that carefully when working out your requirements. Also carefully note data format items, such as currency.
+
+Your requirements MUST be properly written. Review the requirements lecture how to write good stories. In particular, well-written requirements have some or all of the following:
+
+-  A subject and a verb (always).
+-  Who is performing an action, such as "The user must..." or "The system must produce a CSV report..."
+-  Enough information to avoid ambiguity, but not overly long.
+-  Examples of calculations, such as how to compute a total.
+
+Well-written requirements also are not too large. If you find the estimated effort is really large, ask if it is really properly decomposed into a reasonably sized story.
+
+NEVER forget that your requirements must speak to the audience consuming the requirements. Your stakeholders and implementation team must be able to read and understand the material. So always write with your audience in mind and focus on what they need to know. I will remind you of the timeless words of [William Struck Jr from Elements of Style](https://daoyuan14.github.io/elos.pdf):
+
+```
+Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in outline, but that every word tell.
+```
+
+### Use Case Diagram
+
+You will produce a use case diagram and link it to your submission. The diagram will be a professional-grade graphic in your Github repo that shows the epics in your project. Do not make the use case diagram into a process flow. 
+
+Show all actors, such as users, administrators, banks, etc. and their relationship(s) to the use case bubbles.
+
+Make your use case diagram show all of the epics in your requirements for all versions - not just Version 1.
+
+You can draw your diagram in any graphical tool except PowerPoint (which is awful for this). I recommend [PlantUML](https://plantuml.com/use-case-diagram), [Dia](http://dia-installer.de/), or [YEd](https://www.yworks.com/products/yed). All of these are free, open-source, and cross platform. Note that I like Dia the least, but a lot of other classes here use it. PlantUML is my favorite because it doesn't require drawing - you write the diagram as simple code and it draws it (awesome!).
+
+However you make your diagram, you will add the graphic to your markdown and display it in your markdown work. The diagram must be in your Github repo and linked to your markdown.
+
+Your diagram must have actors, association lines, a bounding box, and all use case bubbles. Do *not* use extends or includes relationships and once again, this is *not* a process flow.
+
+### Decision Table
+
+You will produce a decision table showing the rules, conditions, and actions a user or administrator can perform. 
+
+Make your table show all of the rules and conditions for all versions - not just Version 1.
+
+Format your decision table like the decision table in the lecture slides.
+
+Your decision table can be made in markdown OR you can create it in something like Excel or Word and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document).
+
+### Requirements Introduction
+
+You will also create a short introduction to your requirements briefly explaining what is included and a link to the requirements, use case diagram, and decision table. This must be off of your main README.md. The purpose of this is to assist your user (me) finding your requirements work. Do no put all of your requirements work into the main README.md file. It will get far too long. Split the project components into separate sections and organize your work intelligently.
+
+### Requirements Presentation
+
+After your requirements are complete and available in your team Github repo as an easy-to-read Markdown document, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. Do not just spend five minutes reading requirements. Once again, the presentation is to simulate convincing your client that you are on the path to success, that you have carefully considered and are working to managing risk, and that your project is organized and carefully planned. I should feel happy and confident after watching your presentation that your team understands the project, is not missing anything and furthermore, is not adding anything that will increase the risk of failure. Like before, carefully plan your presentation and make it professional quality.
 
 ### Writing Center Bonus
 
@@ -501,9 +618,7 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 [Technical Design Instructions and Grading Rubric](details-technical-design.md)
 
----
-
-## Implementation
+### Implementation
 
 `35% = 105 of 300 points`
 
