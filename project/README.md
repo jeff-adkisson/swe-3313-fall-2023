@@ -500,7 +500,11 @@ Well-written requirements also are not too large. If you find the estimated effo
 NEVER forget that your requirements must speak to the audience consuming the requirements. Your stakeholders and implementation team must be able to read and understand the material. So always write with your audience in mind and focus on what they need to know. I will remind you of the timeless words of [William Struck Jr from Elements of Style](https://daoyuan14.github.io/elos.pdf):
 
 ```
-Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in outline, but that every word tell.
+Vigorous writing is concise. A sentence should contain no unnecessary words, 
+a paragraph no unnecessary sentences, for the same reason that a drawing should 
+have no unnecessary lines and a machine no unnecessary parts. This requires not 
+that the writer make all his sentences short, or that he avoid all detail and 
+treat his subjects only in outline, but that every word tell.
 ```
 
 ### Use Case Diagram
