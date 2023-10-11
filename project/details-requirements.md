@@ -28,9 +28,9 @@ All deliverables will be written in Markdown and posted to your team GitHub repo
 
 ### Submission Steps
 
-The entire team will work execute the project plan requirements. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
+The entire team will work execute the requirements EFFORT. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
 
-Once your work is complete, ***every* team member will do the following:** post a link to your team's Github repo in the Requirements assignment in D2L before 11:59PM on Thursday, October 16, 2023.
+Once your work is complete, ***every* team member will do the following:** post a link to your team's Github repo in the Requirements assignment in D2L before 11:59PM on Thursday, October 26, 2023.
 
 If you forget to post your link in D2L, you will receive a late submission penalty (see syllabus). Do not rely on your teammates for this. Everyone must submit the link themselves (it's connected to the gradebook).
 
