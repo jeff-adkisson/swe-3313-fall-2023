@@ -20,7 +20,7 @@ This project attempts to simulate the software development process a small team 
    Due Thurs Nov 2
 - [Technical Design](#technical-design)<br/>
    30 points, 10% of total<br/>
-   Due Thurs Nov 9
+   Due Sun Nov 12
 - [Implementation](#implementation)<br/>
    105 points, 35% of total<br/>
    Due Thurs Nov 30
