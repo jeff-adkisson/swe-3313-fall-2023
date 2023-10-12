@@ -2,21 +2,22 @@
 
 # Requirements Instructions and Rubric
 
-You already know what we are building - a small e-commerce app that sells unique (one of a kind) items.
+To start writing the requirements, [you must read the notes from your customer](README.md#customer-notes-for-requirements-elicitation). From there you can start to put your requirements and priorities into a rough form. Then you will perform requirements elicitation in person with your customer to ensure you have a clear idea what is expected and what priority to assign each requirement.
 
-To start writing the requirements, you need to read the following informal note from your customer to start to pull requirements and priorities into a rough form. Then you will perform requirements elicitation in person with your customer to ensure you have a clear idea what is expected and what priority to assign each requirement.
-
-After you have a rough list, you will divide the requirements into epics and related stories, then assign each epic to a milestone.
+After you have a rough list, you will divide the requirements into versions, milestones, epics and related stories.
 
 Here are your deliverables in this phase:
 
-1.  Requirements introduction in your repo's main README.md file and links to requirements, use case diagram, and decision diagram.
-2.  Requirements organized into versions, milestones, epics and stories (you do not need to update YouTrack.
-    Note that the version you are delivering at the end of the semester is Version 1. Version 2, etc. will contain the requirements you decide are not "must-have" requirements. So hint, hint, it sounds like Version 1 is limited to Must Have requirements.
-3.  A use case diagram showing the major functionality of the application and all relevant actors for all versions (not just Version 1).
-4.  A decision diagram showing the rules and actions a user can take if logging in as a user or administrator for all versions (not just Version 1).
+1.  [Requirements Introduction](README.md#requirements-introduction) in your repo's main README.md file and links to requirements, use case diagram, decision diagram, and presentation. This is integrated into the documentation you produced for the Project Plan so everything can be found (but is not contained) from a single point.
+2.  [Requirements](README.md#requirements-writing) organized into versions, milestones, epics and stories.
+    Note that the version you implementing by the end of the semester is Version 1. Version 2, etc. will contain the requirements you decide are *not* "must-have" requirements. So hint, hint, it sounds like Version 1 is limited to Must Have requirements.
+3.  One [Use Case Diagram](README.md#use-case-diagram) showing the major functionality of the application and all relevant actors for all versions (not just Version 1).
+4.  One [Decision Diagram](README.md#decision-diagram) showing the rules and actions a user can take if logging in as a user or administrator for all versions (not just Version 1).
+5.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the requirements to your customer. Do not just read the requirements!
 
-All deliverables will be written in Markdown and posted to your team GitHub repo. Graphics such as diagrams will be displayed in your markdown and included in your repo.
+All deliverables must be written in Markdown and posted to your team GitHub repo. Graphics such as diagrams will be displayed in your markdown and included in your repo.
+
+Note that you do not need to update YouTrack. That is a good system for managing this material, but it is beyond the scope of the course. We only use YouTrack for the Gantt chart. When you one day find yourself working on a project with many requirements like this one, I hope you will consider using a system like YouTrack or Jira or Trello to help manage these artifacts.
 
 ## Requirements
 
@@ -24,11 +25,12 @@ All deliverables will be written in Markdown and posted to your team GitHub repo
     I recommend printing it and carefully highlighting/commenting everything in that section. It is very detailed and I have high expectations for each team.
 2.  Check all documentation into your team Github repo. Make sure all documentation is linked, organized, spell checked, and grammatically correct.
 3.  Check your video presentation into your team Github repo. Create a folder called "presentations". Name the presentation "1-requirements-presentation.[extension]" [Free Github accounts do not allow massive files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), so be sure to compress your presentation a bit (not zipped [which won't help anyway] - [just shrink it to a smaller size where it's still high-resolution](https://multimedia.easeus.com/video-converter-tips/compress-video-vlc.html). Large files like video can be made to fit on Github easily, so be ready for this bit of effort if the original file is too big to check in without a bit of compression.
-4.  Prove you can follow my instructions. Engineering is a very precise art. Some things we design, other things we follow. Here you are designing your project plan and carefully following my requirements to execute and submit the work.
 
 ### Submission Steps
 
 The entire team will work execute the requirements EFFORT. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
+
+Requirements are critical to the success of your project. Be very careful here and strive for accuracy and outstanding communication technique.
 
 Once your work is complete, ***every* team member will do the following:** post a link to your team's Github repo in the Requirements assignment in D2L before 11:59PM on Thursday, October 26, 2023.
 
@@ -38,7 +40,7 @@ If you forget to post your link in D2L, you will receive a late submission penal
 
 #### Component Percentages
 
-1.  Introduction to Requirements and links to requirements and diagrams - 5%
+1.  Introduction to Requirements and links to requirements and diagrams and presentation - 5%
 3.  Requirements organized into versions (there is more than one!), milestones, epics and stories - 50%
 4.  One use case diagram - 12.5%
 5.  One decision table - 12.5%
@@ -72,6 +74,8 @@ If you forget to post your link in D2L, you will receive a late submission penal
 *Note: Tables not posted to Github and linked to your Markdown will not be graded.*
 
 #### Presentation Scoring (20% total)
+
+*Do not just read requirements!*
 
 -  90% to 100%: meets all requirements, well-organized, easy to follow audio. Polished work gets the top grade.
 -  80% to 89%: meets all requirements, easy to follow audio, may have some organization issues.

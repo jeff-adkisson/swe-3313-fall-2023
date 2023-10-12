@@ -404,7 +404,7 @@ I will be using the GitHub repo link in the project spreadsheet to reach your te
 This component has five sections:
 
 - Requirements Analysis and Elicitation
-- Short Introduction with Links to Requirements, Use Case Diagram, and Decision Table
+- Short Introduction with links to Requirements, Use Case Diagram, Decision Table, and Presentation
 - Requirements Writing
 - Use Case Diagram
 - Decision Table
@@ -412,23 +412,21 @@ This component has five sections:
 
 ### Requirements Analysis and Elicitation
 
-The customer produced some notes you need to very carefully read.
+Your customer produced some notes you must read very carefully.
 
-After reading the customer's notes, paying carefully attention to what you think the customer MUST HAVE, NEEDS TO HAVE, or WANTS TO HAVE, hold an elicitation session with the customer to ask detailed questions.
+After reading the customer's notes (paying carefully attention to what you think the customer MUST HAVE, NEEDS TO HAVE, or WANTS TO HAVE) hold an elicitation session with the customer to ask detailed questions.
 
-Take detailed notes during elicitation. Your customer is not going to be available 24/7.
+Take detailed notes during the requirements elicitation. Your customer is not going to be available 24/7.
 
-Note that there is more work that can be done in a single version in the customer's notes. Your responsibility for Version 1 is to implement all of the MUST HAVE requirements. 
+Note that there is more work than can be done in Version 1 of your implementation in the customer's notes. Your responsibility for Version 1 is to implement all of the MUST HAVE requirements. You will document the other requirements in Version 2.
 
 ### Customer Notes for Requirements Elicitation
 
-It's a pleasure to work with your team to help my company sell ______( *whatever your team is selling* )__. 
+It's a pleasure to work with your engineering team to help my company sell ______( *whatever your team is selling* )__. 
 
 The new application must do a few things very well. There are some other things I need or want, but those may not make it into this first version. As you read this, I am sure you will be able to tell rapidly what I simply cannot do business without in the first version. Ask if you are not sure. 
 
-Users must be able to self-register (create their own account) and login. I also must have a more powerful "admin" user type that can login and run sales reports. Obvious admins cannot self register. All users must have a unique username and 6-character (minimum) password. To make an admin, I guess someone who is already an admin needs to be able to transform a previously registered user into an admin. It would be great if there was a simple user interface to do that.
-
-I need also ned my admins to be able to export the sales report in CSV format. I can live without this for a while, but I really need it sometime.
+Users must be able to self-register (create their own account) and login. I also must have a more powerful "admin" user type that can login and run sales reports. Obviously admins cannot self register. All users must have a unique username and 6-character (minimum) password. To make an admin, someone who is already an admin needs to be able to transform a previously registered user into an admin. It would be great if there was a simple user interface to do that, but I need some process regardless if a user interface is too much work for Version 1.
 
 After a user logs in (or registers), the user must see a list of all available inventory sorted by highest price to lowest price. This is the "main" screen. They cannot see anything that is already sold. The inventory must have a short name, picture, price, and brief description, plus a button to add the item to a shopping cart. Obviously the user can add multiple items to the cart. All items must have at least one picture. I'd love it if we could do multiple pictures, but I heard that might be hard in this first release, so I can live with that in the future if necessary.
 
@@ -466,8 +464,8 @@ That sums up the user purchase experience.
 Administrators have a few more "powers".
 
 1.  An administrator must be able to run a sales report that shows everything purchased and who purchased it. I would LOVE it I could click on a sold item and it shows me the receipt related to that.
-2.  An administrator also needs to be able to export the sales report to CSV. This will let the admin analyze the data better in something like Excel.
-3.  Finally, administrators need some way to get inventory into the system. How will they add new inventory to the database? They need some approach. I would love it if they could open a page and enter the information (and choose a picture) and it gets added to the database. If that is too hard, they could just enter it into the database manually. Initially I just need something. My admins are not overly technical, but they could enter the information into a file or database screen if you show them how. 
+2.  An administrator needs to be able to export the sales report to CSV. This will let the admin analyze the data better in something like Excel.
+3.  Finally, administrators must have some way to add inventory into the system. How will they add new inventory to the database? They need some approach. I would love it if they could open a page and enter the information (and choose a picture) and it gets added to the database. If that is too hard, they could just enter it into the database manually. Initially something or the store will be empty. My admins are not overly technical, but they could enter the information into a file or database screen if you show them how and write down the steps. 
 
 One last thing... I'm really worried how all of this is going to look, so I must have a high-fidelity mockup created of the screens and application flow before coding starts. I want to see how it's going to look when you finish it. I cannot really envision how things look when people just hand me a bunch of requirements, so I need you to show me what I can expect what it is all done.
 
@@ -477,8 +475,11 @@ The project is multiple versions, but we are only implementing Version 1. You wi
 
 -  Version #
    -  Milestone (from your Project Plan - say "Future" when version is greater than 1)
-      -  Epic Name and ID (write these like a use case bubble - very brief, but specific enough to be clear what we are doing)
-         -  Story Name and ID (name should also have subject and a verb, but shorter than description)
+      *Make sure your milestones are properly ordered.*
+      -  Epic Name and unique ID (write these like a use case bubble - very brief, but specific enough to be clear what we are doing)
+         I suggest something like T (for team) and # and E and a number for your epic id. For example, T9E-2.
+         -  Story Name and unique ID (name should also have subject and a verb, but shorter than description).
+            I suggest something like T (for team) and # and S and a number for your story ID. For example, T9S-12.
             -  Priority (Must Have, Needs to Have, Wants to Have)
             -  Estimated Effort (no less than 1/4 day, no greater than 5 days)
             -  Functional or Non-Functional (choose one)
@@ -486,16 +487,20 @@ The project is multiple versions, but we are only implementing Version 1. You wi
 
 Your requirements will be detailed, precise, grammatically correct and correctly spelled, and well-organized. Your requirements will strive to be complete and have no errors of omission (missing requirements) or errors of inclusion (unnecessarily adding to the scope of the project). Each requirement will be assigned a priority, an estimate of effort (no more than 5 days, no less than .25 days), and whether it is functional or non-functional.
 
-After reading the customer's notes, you will note the customer mentions a lot of screens or pages. These hint how your application will be organized and data flows through the system. Note that carefully when working out your requirements. Also carefully note data format items, such as currency.
+After reading the customer's notes, you will note the customer mentions a lot of screens or pages. These hint how your application will be organized and data flows through the system. Sometimes you might find that a single screen is a full size epic with many stories under it or a screen is quick to make and is a single story,. Note the screens carefully when working out your requirements. Also carefully note data format items, such as currency. 
+
+In addition to what the customer wrote, you bring your own experience using software to this. The customer has left many things unsaid, but the expectation is there. For example, the customer expects it will be easy to use and navigation is friendly with lots of ways to move forward, back, and cancel. You need to think about this and really decide how to make a friendly app. If it's not friendly, it will not sell the inventory... users will just go to another online store that is easier to use.
 
 Your requirements MUST be properly written. Review the requirements lecture how to write good stories. In particular, well-written requirements have some or all of the following:
 
--  A subject and a verb (always).
+-  A subject and a verb (always)
 -  Who is performing an action, such as "The user must..." or "The system must produce a CSV report..."
 -  Enough information to avoid ambiguity, but not overly long.
 -  Examples of calculations, such as how to compute a total.
 
-Well-written requirements also are not too large. If you find the estimated effort is really large, ask if it is really properly decomposed into a reasonably sized story.
+Well-written requirements are not too large or too small. If you find the estimated effort is really large, ask if it is really properly decomposed into a reasonably sized story.
+
+Keep your functional requirements free of technical language. The functional requirements should therefore be customer-friendly and using language the customer will understand. I personally believe non-functional requirements are often technical in nature, so you can use light technical language there. That said, the correct plan for deeply technical work is in your technical design, so even the non-functional requirements should not be filled with highly technical work.
 
 NEVER forget that your requirements must speak to the audience consuming the requirements. Your stakeholders and implementation team must be able to read and understand the material. So always write with your audience in mind and focus on what they need to know. I will remind you of the timeless words of [William Struck Jr from Elements of Style](https://daoyuan14.github.io/elos.pdf):
 
@@ -507,9 +512,13 @@ that the writer make all his sentences short, or that he avoid all detail and
 treat his subjects only in outline, but that every word tell.
 ```
 
+Get everything written and let it sit for a day. Next, re-read it slowly. *Edit your work.* Good writing takes more than one pass. You are looking for issues such as problems with internal consistency, clumsy or confusing material, errors of omission or inclusion, missing data, and poor organization. Often after I re-read my material I move material around to flow more logically. Do not hesitate to delete poor material and edit it for brevity. [Stephen King calls this "killing your darlings" in On Writing.](https://www.susangabriel.com/writers-and-writing/stephen-king-on-writing)
+
+**The best engineers are great communicators. Strive to be a great communicator.**
+
 ### Use Case Diagram
 
-You will produce a use case diagram and link it to your submission. The diagram will be a professional-grade graphic in your Github repo that shows the epics in your project. Do not make the use case diagram into a process flow. 
+You will produce one use case diagram and link it to your submission. The diagram will be a professional-grade graphic in your Github repo that shows the epics in your project. Do not make the use case diagram into a process flow. 
 
 Show all actors, such as users, administrators, banks, etc. and their relationship(s) to the use case bubbles.
 
@@ -521,6 +530,8 @@ However you make your diagram, you will add the graphic to your markdown and dis
 
 Your diagram must have actors, association lines, a bounding box, and all use case bubbles. Do *not* use extends or includes relationships and once again, this is *not* a process flow.
 
+When you are done with the Use Case Diagram, ask yourself it it would help facilitate a good conversation about the high-level functions of your software solution and the actor involved in using the system. If not, revise it.
+
 ### Decision Table
 
 You will produce a decision table showing the rules, conditions, and actions a user or administrator can perform. 
@@ -531,17 +542,27 @@ Format your decision table like the decision table in the lecture slides.
 
 Your decision table can be made in markdown OR you can create it in something like Excel or Word and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document).
 
+I recommend creating your Decision Table *after* you write the requirements for all versions. Then you can pull the requirements out for the single decision table related to this part of the project.
+
+When you are done with your Decision Table, ask yourself if it simplifies understanding the conditional logical of your system. If not, revise it.
+
 ### Requirements Introduction
 
-You will also create a short introduction to your requirements briefly explaining what is included and a link to the requirements, use case diagram, and decision table. This must be off of your main README.md. The purpose of this is to assist your user (me) finding your requirements work. Do no put all of your requirements work into the main README.md file. It will get far too long. Split the project components into separate sections and organize your work intelligently.
+You will create a short introduction to your requirements briefly explaining what is included and a link to the requirements, use case diagram, decision table, and presentation.
+
+This must be off of your project's main README.md. The purpose of this is to assist your user (me) finding your requirements work. Do no put all of your requirements work into the main README.md file. It will get far too long. Split the project components into separate sections and organize your work intelligently.
+
+Make sure your requirements introduction is neatly integrated into the documentation from your Project Plan. At the end of the project, I should be able to find all of your material easily with links to the appropriate work without opening a dozen files in your repo.
 
 ### Requirements Presentation
 
-After your requirements are complete and available in your team Github repo as an easy-to-read Markdown document, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. Do not just spend five minutes reading requirements. Once again, the presentation is to simulate convincing your client that you are on the path to success, that you have carefully considered and are working to managing risk, and that your project is organized and carefully planned. I should feel happy and confident after watching your presentation that your team understands the project, is not missing anything and furthermore, is not adding anything that will increase the risk of failure. Like before, carefully plan your presentation and make it professional quality.
+After your requirements are complete and available in your team Github repo as an easy-to-read Markdown document, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. *Do not just spend five minutes reading requirements.* 
+
+Once again, the presentation is to simulate convincing your client that you are on the path to success, that you have carefully considered and are working to managing risk, and that your project is organized and carefully planned. I should feel happy and confident after watching your presentation that your team understands the project, is not missing anything and furthermore, is not adding anything that will increase the risk of failure. Like before, carefully plan your presentation and make it professional quality.
 
 ### Writing Center Bonus
 
-Do not forget that you can get up to two extra points on your final grade visiting the Writing Center (1 visit = 1 point, 2 visits = 2 points).
+Do not forget that you can get up to two extra points on your final grade visiting the Writing Center (1 visit = 1 point, 2 visits = 2 points). If you go, show them this document.
 
 ### Instructions and Grading Rubric
 
@@ -553,7 +574,7 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 `10%, 30 of 300 points`
 
-`Due Thurs, Nov 2, 2023 - Share UI Design in Marvel, post link in D2L assignment folder`
+`Due Thurs, Nov 2, 2023`
 
 In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a high-fidelity mockup of your application using the free edition of [Marvel](https://marvelapp.com).
 
@@ -566,8 +587,7 @@ Your mockup will demonstrate every screen in your future implementation, includi
 - Login (as a Customer and an Administrator)
 - Self-Registration (creating your Customer account)
 - Inventory List including Search
-- Product View
-- Shopping Cart including Remove
+- Shopping Cart including Remove Item
 - Checkout including payment acceptance and on-screen receipt
 - Sales Report (Administrators only)
 
@@ -591,7 +611,7 @@ As always, you will produce a 5 minute video presentation showing your UI design
 
 `10% = 30 of 300 points`
 
-`Due Thurs, Nov 9, 2023 - Post Technical Design in YouTrack Knowledge Base, post link in D2L assignment folder`
+`Due Sun, Nov 12, 2023`
 
 At this point, you have spent significant time thinking about and working on your project. You should have very good ideas how to implement your system. Now that you have this knowledge and insight, you will produce a technical design detailing how you will build the most critical pieces of the system.
 
