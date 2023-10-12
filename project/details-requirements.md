@@ -12,7 +12,7 @@ Here are your deliverables in this phase:
 2.  [Requirements](README.md#requirements-writing) organized into versions, milestones, epics and stories.
     Note that the version you implementing by the end of the semester is Version 1. Version 2, etc. will contain the requirements you decide are *not* "must-have" requirements. So hint, hint, it sounds like Version 1 is limited to Must Have requirements.
 3.  One [Use Case Diagram](README.md#use-case-diagram) showing the major functionality of the application and all relevant actors for all versions (not just Version 1).
-4.  One [Decision Diagram](README.md#decision-diagram) showing the rules and actions a user can take if logging in as a user or administrator for all versions (not just Version 1).
+4.  One [Decision Table](README.md#decision-table) showing the rules and actions a user can take if logging in as a user or administrator for all versions (not just Version 1).
 5.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the requirements to your customer. Do not just read the requirements!
 
 All deliverables must be written in Markdown and posted to your team GitHub repo. Graphics such as diagrams will be displayed in your markdown and included in your repo.
