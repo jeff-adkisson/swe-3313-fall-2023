@@ -576,7 +576,7 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 `Due Tues, Nov 7, 2023`
 
-In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a high-fidelity mockup of your application using the free edition of [Marvel](https://marvelapp.com).
+In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a [high-fidelity iteractive mockup](https://www.uxpin.com/studio/blog/high-fidelity-prototyping-low-fidelity-difference) of your application using the free edition of [Marvel](https://marvelapp.com).
 
 In this component, you are designing how users will move through your application. After reviewing your mockup, your client (me) will have a good understanding how each screen will look and how each screen relates to one another.
 
@@ -584,9 +584,12 @@ In reality, it is unlikely a real client/stakeholder will completely read and un
 
 Your UI design and high fidelity mockup will demonstrate every must-have screen in your future implementation, including:
 
-- Login
+- Login including a link to self-register
 - Self-Registration (creating your Customer account)
 - Inventory List including Search
+   - Mockup the inventory list without a search active
+   - Mockup the inventory list filtered by a search term limiting the results to matches
+
 - Shopping Cart including Remove Item(s)
 - Checkout including payment acceptance and on-screen receipt
 - Sales Report (Administrators only)
@@ -607,7 +610,7 @@ You will compare your UI design to your final implementation during your [Final 
 
 As always, you will produce a 5 minute video presentation showing your UI design. Like before, it will be professional-grade, well-organized, and highlight the features your client (me) will find most interesting or high priority. Step through your design showing the user experience and the administrator experience.
 
-### Marvel
+### Marvel Design Platform
 
 You will use Marvel to produce your high-fidelity interactive user interface mockup.
 
@@ -617,6 +620,7 @@ You will use Marvel to produce your high-fidelity interactive user interface moc
 4.  Start laying out your screens.
 5.  Link your screens with hotspots.
 6.  If a screen has multiple states, you need to copy the screen to create each state. For example, you need to show the inventory without a search active and the inventory with an active search.... Create the screen with all inventory, then copy it and update the copy to show the search and inventory filtering. Once you do this, you will understand how it works. 
+7.  To submit your work, you will add a public link to view the project to your team GitHub repo along with a video presentation explaining your design choices, flow through the application, etc.
 
 ### Usability
 
@@ -660,7 +664,7 @@ Before you submit your project, ask yourself if you think you have achieved the 
 
 It is unlikely you will reach outstanding usability in your first pass. Have every team member try your Marvel mockup and see if everyone agrees it is friendly and likable and meets the requirements. Ask your Mom or Gramma to try it out and watch them use it. These are valuable ways to see where the design you *thought* was so friendly is actually confusing to someone who is not an expert in this project.
 
-### This is Graphic Design and User Experience and Usability. It is Not Art
+### This is Graphic Design and User Experience and Usability. It is Not Art.
 
 ![](https://i.pinimg.com/originals/9f/ca/6c/9fca6c693088513e1617b300190914ff.jpg)
 
