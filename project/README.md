@@ -17,10 +17,10 @@ This project attempts to simulate the software development process a small team 
    Due Thurs Oct 26 
 - [User Interface Design](#user-interface-design)<br/>
    30 points, 10% of total<br/>
-   Due Thurs Nov 2
+   Due Tues Nov 7
 - [Technical Design](#technical-design)<br/>
    30 points, 10% of total<br/>
-   Due Sun Nov 12
+   Due Sun Nov 19
 - [Implementation](#implementation)<br/>
    105 points, 35% of total<br/>
    Due Thurs Nov 30
@@ -538,7 +538,7 @@ You will produce a decision table showing the rules, conditions, and actions a u
 
 Make your table show all of the rules and conditions for all versions - not just Version 1.
 
-Format your decision table like the decision table in the lecture slides.
+Format your decision table like the decision table in the lecture slides.ß
 
 Your decision table can be made in markdown OR you can create it in something like Excel or Word and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document).
 
@@ -574,20 +574,20 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 `10%, 30 of 300 points`
 
-`Due Thurs, Nov 2, 2023`
+`Due Tues, Nov 7, 2023`
 
 In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a high-fidelity mockup of your application using the free edition of [Marvel](https://marvelapp.com).
 
 In this component, you are designing how users will move through your application. After reviewing your mockup, your client (me) will have a good understanding how each screen will look and how each screen relates to one another.
 
-In reality, it is unlikely a real client/stakeholder will completely read and understand your requirements. It is easier for most users to map their expectations onto the final visual controls of a software solution than to imagine how it all fits together reading tables of requirements. Thus, we do User Interface Design to help our client envision the final project. During this part of a project, it's common for clients to say "OMG, I didn't think about that" or "This reminds me... I forgot to tell you" or "The colors you picked do not match our brand" or "This does not match my expectation" or "You can do this operation in 2 steps rather than 3 if you..."
+In reality, it is unlikely a real client/stakeholder will completely read and understand your requirements. It is easier for most stakeholders to map their expectations onto the visual controls of a software solution than to imagine how it all fits together reading tables of requirements. Thus, we do User Interface Design to help our stakeholder envision the final project. During this part of a project, it's common for clients to say "OMG, I didn't think about that" or "This reminds me... I forgot to tell you" or "The colors you picked do not match our brand" or "This does not match my expectation" or "You can do this operation in 2 steps rather than 3 if you..."
 
-Your mockup will demonstrate every screen in your future implementation, including:
+Your UI design and high fidelity mockup will demonstrate every must-have screen in your future implementation, including:
 
-- Login (as a Customer and an Administrator)
+- Login
 - Self-Registration (creating your Customer account)
 - Inventory List including Search
-- Shopping Cart including Remove Item
+- Shopping Cart including Remove Item(s)
 - Checkout including payment acceptance and on-screen receipt
 - Sales Report (Administrators only)
 
@@ -595,11 +595,92 @@ Marvel is used by Professor Sandra Jones for her design and interaction classes 
 
 Marvel supports both [desktop design](https://marvelapp.com/examples/recruitment-website) and [web design](https://marvelapp.com/examples/hotel-app), so your mockup will work for whatever technology selections your team has made.
 
-Other design tools, such as PowerPoint, or hand drawn screens will not be accepted.
+Other design tools, such as PowerPoint, or hand drawn screens will **not** be accepted.
 
-Make *sure* you are designing something that you are capable of producing in your selected language and framework. You will compare your UI design to your final implementation during your [Final Presentation](#final-presentation), so you want the expectation you set here to generally match the reality of what you produce. Do not draw a Ferrari and deliver a PT Cruiser. This can be particularly challenging with some UI frameworks such as JavaFX and Winforms, so you need to know what your team is capable of here before getting your client excited about his new Ferrari.
+### Design *What You Can Build*, Not Just Something Cool
 
-As always, you will produce a 5 minute video presentation showing your UI design. Like before, it will be professional-grade, well-organized, and highlight the features your client (me) will find most interesting or high priority.
+**You must design something that you are capable of <u>implementing</u> in your selected language and framework.** 
+
+Every semester some team draws something that looks awesome, but they cannot actually produce. You are presenting your customer with a vision of what they can expect when the project is done, so you need to know both your team's capability and the capability/look and feel of the technology you are using. If you do not know these capabilities, you need to learn them before starting your user interface design.
+
+You will compare your UI design to your final implementation during your [Final Presentation](#final-presentation), so the expectation you set here must generally match the reality of what you produce. *Do not draw a Ferrari and deliver a PT Cruiser (and never design a PT Cruiser either - worst car ever, truly a dark spot in design history).* Achieving a match can be a bit challenging with some UI frameworks such as JavaFX and Winforms, so carefully plan what your team can likely produce *before* getting your customer excited about their new Ferrari and subsequently delivering a PT Cruiser.
+
+As always, you will produce a 5 minute video presentation showing your UI design. Like before, it will be professional-grade, well-organized, and highlight the features your client (me) will find most interesting or high priority. Step through your design showing the user experience and the administrator experience.
+
+### Marvel
+
+You will use Marvel to produce your high-fidelity interactive user interface mockup.
+
+1.  One team member must create a free Marvel account at https://marvelapp.com/signup.
+2.  Go to the Team option and invite your teammates. Click Invite People, enter your teammates' email addresses with the **Can edit** right selected so everyone can work on the project.
+3.  Create your new Project.
+4.  Start laying out your screens.
+5.  Link your screens with hotspots.
+6.  If a screen has multiple states, you need to copy the screen to create each state. For example, you need to show the inventory without a search active and the inventory with an active search.... Create the screen with all inventory, then copy it and update the copy to show the search and inventory filtering. Once you do this, you will understand how it works. 
+
+### Usability
+
+Your application must be easy to use. That is hard to quantify here. What is "friendly" or "easy to use"? Everyone here has used an e-commerce site, so you have some understanding of how these systems flow. You likely know what is easy to use (Amazon) and not as easy to use (any e-commerce site powered by Salesforce).
+
+Some important guidelines include:
+
+-  Always confirm important transactions that cannot be easily reversed, such as Pay Now or Delete User
+-  Always provide a way to back up or cancel an operation (though you cannot cancel something once it is payed for - we are not doing returns in this project).
+-  Navigation should be clear and consistently labeled.
+-  Language should be user-friendly and tailored to your user audience. Don't call something "Commit Transaction" when it should be called "Save". Engineers always fall into the habit of using language that is very technical... use language your user will understand. Remember that for the most part, *you are not the user*.
+
+Here are some articles I recommend reading to help achieve this critical goal:
+
+-  [9 Guidelines & Best Practices for Exceptional Web Design and Usability](https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx)
+-  [10 Useful Usability Findings and Guidelines](https://www.smashingmagazine.com/2009/09/10-useful-usability-findings-and-guidelines/)
+-  [10 Principles of Good Web Design](https://www.smashingmagazine.com/2008/01/10-principles-of-effective-web-design/)
+
+Good usability is a **universal skill** you will employ through your entire engineering career, no matter what you are building. Something that is highly usable means it communicates effectively with the user and makes it easy for the user to achieve their goal/solve their problem. 
+
+There is an old saying when it comes to user interface design:
+
+```
+A user interface is like a joke.
+If you have to explain it, it is not that good.
+```
+
+Keep your audience in mind and do not fall prey to the [Curse of Knowledge](https://userpeek.com/blog/the-curse-of-knowledge-in-ux) cognitive bias.
+
+Here is another good one:
+
+```
+If we want users to like our software we should design it to behave like a likeable person: 
+	respectful, 
+	generous,
+  and helpful.
+- Alan Cooper, usability expert and author of The Inmates are Running the Asylum
+```
+
+Before you submit your project, ask yourself if you think you have achieved the goal of Alan Cooper's quote with every screen and action. If not, keep refining your work. 
+
+It is unlikely you will reach outstanding usability in your first pass. Have every team member try your Marvel mockup and see if everyone agrees it is friendly and likable and meets the requirements. Ask your Mom or Gramma to try it out and watch them use it. These are valuable ways to see where the design you *thought* was so friendly is actually confusing to someone who is not an expert in this project.
+
+### This is Graphic Design and User Experience and Usability. It is Not Art
+
+![](https://i.pinimg.com/originals/9f/ca/6c/9fca6c693088513e1617b300190914ff.jpg)
+
+Good user interface design is not limited to "creative" or "artistic" people. No doubt a highly trained artist or graphic designer is more likely pick better colors and layouts than a software engineer, but you can do an acceptably good job just by following a few simple guidelines and rules. 
+
+Start by telling yourself this: *I do not have to be an artist or creative person to make a great user interface.* Repeat that to yourself.
+
+Next, remember that in software design, [form follows function](https://www.hyperext.com/web-development/form-follows-function/).
+
+Finally, do not push this part of the project onto the "creative" person in the group because you are a back end coder and just like the hardcore stuff. All engineers must learn this skill. Good user interface design is another form of communication and we all know that *great engineers are great communicators*.
+
+[There are lots of resources for non-creatives to do good design. Find them and read them.](https://helloslate.co.uk/understanding-web-design-as-a-non-creative-person/)
+
+### A Note on Gender Stereotypes and "Creative" Design
+
+In the past I have seen teams (both academic teams and in my professional capacity) assign ownership of this part of the project to a female team member because "females are more creative" or "females are more more empathetic".
+
+*Do not fall into this trap.* It is a gender stereotype. There is a societal generalization that females are usually better at interface design, color, layout, and creative work. *Whether that is true or not,* do not assign work based on gender stereotypes.
+
+Engineering remains male-dominated in part due to generalizations like this one. This is obviously unfair to female team members, often forcing females into roles defined by gender stereotypes as opposed to training, ability, and interest. 
 
 ### Instructions and Grading Rubric
 
@@ -611,7 +692,7 @@ As always, you will produce a 5 minute video presentation showing your UI design
 
 `10% = 30 of 300 points`
 
-`Due Sun, Nov 12, 2023`
+`Due Sun, Nov 19, 2023`
 
 At this point, you have spent significant time thinking about and working on your project. You should have very good ideas how to implement your system. Now that you have this knowledge and insight, you will produce a technical design detailing how you will build the most critical pieces of the system.
 
@@ -626,11 +707,11 @@ Your Technical Design will include:
 - Seed data<br/>
    When you start your application, what is already in the system? We call this "seed data". Typically that includes at least one administrator account, your inventory items and photos, etc.
 - Data storage plan<br/>
-   How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to your embedded SQLite database. Remember that the data you change/add must remain available the next time you start the application - this is a class project, but it needs to operate like a real application and starting fresh every time you launch is not realistic.
+   How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic.
 - [Coding Style Guide](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
    Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc.
 
-The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks your language, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been covered in your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
+The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks English, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been covered in your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
 
 After your Technical Design is complete, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective and try to focus on high priority features and high risk areas of concern.
 
