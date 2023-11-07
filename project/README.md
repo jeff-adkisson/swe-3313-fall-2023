@@ -702,22 +702,56 @@ At this point, you have spent significant time thinking about and working on you
 
 Your Technical Design will include:
 
-- Implementation Language including *why* you selected it
-- Implementation Frameworks including *why* selected it (obviously it's good experience, so leave that out and get into why your selection benefits the client in the long run)
-- [Entity Relationship Diagram](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm) and associated table of field descriptions<br/>
-   All of the data your system manages and how each data type is related will be visually depicted here and the fields along with the data types will be described in the associated table.
-- Services<br/>
-   Your system will rely on services such as authentication, inventory management, and shopping cart management. Here you will show the modules, classes, and methods associated with each service and their relationship to one another. Someone reviewing this artifact should understand the actions each of these services can provide and what each method returns.
-- Seed data<br/>
-   When you start your application, what is already in the system? We call this "seed data". Typically that includes at least one administrator account, your inventory items and photos, etc.
-- Data storage plan<br/>
-   How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic.
-- [Coding Style Guide](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
-   Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc.
+- **Implementation Language(s) including *why* you selected it**
+   *For example, if you are using Grails, your languages are Groovy and HTML. JavaFX is not a language - it's a framework that uses Java. As always, write using bullets, lists, and tables... avoid huge paragraphs. Include links to your language's documentation, useful tutorials, etc. Your goal here is to help a developer understand why you choose the language and quickly learn more about it.*
+
+- **Implementation Frameworks including *why* selected them**
+   *For example, if you are using Grails, the framework is Grails. You might also use a CSS framework such as Bootstrap. JavaFX is a framework. Blazor is a framework that uses the C# language. Include useful links to documentation for your framework(s). You goal here is to help a developer understand your architecture and quickly learn more about it. Links to tutorials and videos are quite useful as well. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
+
+- **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples**<br/>
+   *All of the data your system manages and how each data type is related will be visually depicted here. Your ERD design is not an academic effort - this should match what you actually plan to implement - so plan carefully keeping in mind the data your user interface design demonstrated the application will display/manage.*
+
+   - **Entity Relationship Diagram**
+      *Show every entity using Crows Foot notation, fields in the entity, plus the relationships and multiplicity.* I recommend drawing this in [PlantUML](https://www.plantuml.com/plantuml/svg/bLBDRXen4BxlKumu8YB1ePUSaZHfXTgcbFG531wbbhmUDBOfgy2xTx1nT-coHRdP_dxqpJU-yq5nYBMjq0KJ6hZt7hslvRR4hV667BnL0EDn7vZhyVWM5b_0k301exD3TQYArqzJ8v_awNnKm0K9m2NtM_YKY0A_KEGrphM8juhNlnJ3R3eLu5dLs7jyZAo2MBpWcfpsWcUNfzt6PEI1TDEgQhKxGv_Lrhpc4-x2LxL2sv8_JAlEY1_91Jb-PegRDAcCsdqRw0YkJWmBHYzWYl6TDNAPucyP_uuDAMdlzH7zcitcwDF5CZZtItnoWPjxQ-atYkUAo0gIbzT6ce2BrggLnKdM9NoXeY-YIKvDhonpFIWUZFaZea_bndg5mxIKwDJbt2rnGnpyAL-xW69MoY_tmUAlzNw-lIvoxLkSKHOixXJzvT_J3m6ZsGZs-viRUeFH50B1D-MQKLx3__XxuSzQVZV-EsIbjgghJ-G32Nb_p4GCinAeHsizbTD0pZP2RctlqEbOspy0) or [Mermaid](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm). Do *not* draw your ERD using [Chen Notation](https://vertabelo.com/blog/chen-erd-notation/). You must use [Crows Foot Notation](https://www.freecodecamp.org/news/crows-foot-notation-relationship-symbols-and-how-to-read-diagrams/), *Following is a PlantUML example from a design document I recently produced:*
+      ![image-20231107085055136](README.assets/image-20231107085055136.png)
+   - **Table of Field Descriptions for each entity**
+      *List and describe every field of every entity and the data type. Include data type sizes you are using SQL (for example, nvarchar 50 is a 50 character Unicode string in SQL Server.) Note whether the field is required or nullable (can be empty). If the field is a key, note if it is a primary or foreign key. If the key is a foreign key, note the origin table of the value. Below is an example (note it does not describe every field, so do not copy this example)*
+      ![image-20231107085225625](README.assets/image-20231107085225625.png)
+   - **Example Data**
+      *For each entity in your entity relationship diagram, create a table showing 3-5 sample records. Make sure they follow your data types described in the Table of Field Descriptions and are properly related to one another if there are foreign keys to other entities. Your goal here is to ensure a developer reading your entity design plan can see realistic examples of the types of data and how they related to one another.*
+      ![image-20231107090519995](README.assets/image-20231107090519995.png)
+
+- **Database Seed Data**<br/>
+   When you start your application, what is *already* in the system? [We call this "seed data"](https://en.wikipedia.org/wiki/Database_seeding). Typically that includes at least one administrator account, your inventory items and photos, etc. This is *not* the same as example data. This is actual data your application requires to simply start the first time and will be present in your implementation.
+   *Create a table describing your seed data for each entity that will contain data when the application starts.*
+   ![image-20231107090505665](README.assets/image-20231107090505665.png)
+
+- **Data Storage Plan**<br/>
+   How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access a Postgres database. Write this as a series of steps or bullet points. Avoid large long dull paragraphs.
+   *Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
+
+- [**Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
+   *Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. A common feature of a coding style guide is source control management, such as use of git and perhaps a branch management strategy such as [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits.) The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc. As always, write using bullets, lists, and tables... avoid huge paragraphs. Here are some good examples:*
+
+   - https://www.pullrequest.com/blog/create-a-programming-style-guide/
+   - https://google.github.io/styleguide/
+   - https://syllabus.codeyourfuture.io/guides/code-style-guide
+   - https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
+   - https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+   - https://blog.codacy.com/3-popular-csharp-style-guides
+
+   *Here is a tiny fragment of a similar example I recently added to a project design.*
+   ![image-20231107090826139](README.assets/image-20231107090826139.png)
+
+   ![image-20231107091446319](README.assets/image-20231107091446319.png)
+
+### Your Technical Design Audience is a Developer
 
 The audience for your Technical Design is a developer - not your client (me). For the purpose of this project, assume that the developer is an outsourced engineer that speaks English, but is in another country and timezone. Also assume that remote developer is me (surprise!). Therefore, your Technical Design must answer a lot of questions effectively and with high precision to avoid midnight phone calls and long meetings answering questions that should have been covered in your Technical Design. Ask yourself if your outsourced developer can execute your design based on what you have written? If not, then you need to revise your Technical Design. 
 
-After your Technical Design is complete, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective and try to focus on high priority features and high risk areas of concern.
+After your Technical Design is complete and posted to your team GitHub repo, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective and try to focus on high priority features and high risk areas of concern.
+
+As always, your work will be written in Markdown and posted to your team project in your shared GitHub repo. Your work must be well-organized, linked off your main README.md file, professionally produced, accurate, and exhibit excellent grammar and spelling.
 
 ### Writing Center Bonus
 
