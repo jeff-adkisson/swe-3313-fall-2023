@@ -25,6 +25,12 @@ Your UI design and high fidelity mockup will demonstrate *every **must-have*** s
 1.  A well-designed hot linked user interface prototype covering every must-have user interface built using [Marvel](https://marvelapp.com). Make sure you [carefully review all of the user interface design notes]((README.md#user-interface-design)) in the main project document. Focus on great usability. Ask your friends and family to try it out, then watch them as they move through your application prototype (this can be very painful, but very instructive). Your work must use Marvel. Do not submit designs made in PowerPoint, hand-drawn, or another design tool.
 2.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the user interface prototype to your customer. Do not just read the screens! Explain why screen A goes to screen B, color choices, how your design was influenced by the technology you are using for implementation, etc. Remember that you are setting the customer's expectation for how the final application will look. Make sure your customer understands how they will move through the application. Check your video presentation into your team Github repo. You can also post a YouTube or Vimeo link if you wish.
 
+Post links to your two deliverables to your team's shared Github repo. Your links must be easy to find and well-integrated with the prior work your team has already done.
+
+-  Public link to your Marvel user interface prototype. Verify you can use  the public link without a user account by logging out of Marvel, then trying the link. If you cannot access the link without a team account, then I cannot either.
+   ![image-20231107081901768](details-user-interface-design.assets/image-20231107081901768.png)
+-  Link to your video presentation (shared in GitHub or a public YouTube or Vimeo link).
+
 ### Submission Steps
 
 The entire team will work execute the user interface design EFFORT. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
