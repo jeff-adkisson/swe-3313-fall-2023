@@ -574,7 +574,7 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 `10%, 30 of 300 points`
 
-`Due Tues, Nov 7, 2023`
+`Due Friday, Nov 10, 2023 before 11:59 PM`
 
 In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a [high-fidelity iteractive mockup](https://www.uxpin.com/studio/blog/high-fidelity-prototyping-low-fidelity-difference) of your application using the free edition of [Marvel](https://marvelapp.com).
 
@@ -614,9 +614,9 @@ As always, you will produce a 5 minute video presentation showing your UI design
 
 You will use Marvel to produce your high-fidelity interactive user interface mockup.
 
-1.  One team member must create a free Marvel account at https://marvelapp.com/signup.
-2.  Go to the Team option and invite your teammates. Click Invite People, enter your teammates' email addresses with the **Can edit** right selected so everyone can work on the project.
-3.  Create your new Project.
+1.  One team member must create a free Marvel account at [https://marvelapp.com/signup](https://marvelapp.com/signup).
+2.  Go to the **Team** option and invite your teammates. Click **Invite People**, enter your teammates' email addresses with the **Can edit** right selected so everyone can work on the project.
+3.  Create your new **Project**.
 4.  Start laying out your screens.
 5.  Link your screens with hotspots.
 6.  If a screen has multiple states, you need to copy the screen to create each state. For example, you need to show the inventory without a search active and the inventory with an active search.... Create the screen with all inventory, then copy it and update the copy to show the search and inventory filtering. Once you do this, you will understand how it works. 
