@@ -50,7 +50,7 @@ If you forget to post your link in D2L, you will receive a late submission penal
 -  69% or below: does not meet most requirements or is very poorly coded.
 -  50% or below: does not compile (even if it meets all or most other requirements).
 
-*Note: Source codenot posted to Github will not be graded. Also note that you are submitting source code - not a JAR file or EXE or other compiled artifact.*
+*Note: Source code not posted to Github will not be graded. Also note that you are submitting source code - not a JAR file or EXE or other compiled artifact.*
 
 #### README.md in root of source code (20% of total)
 
