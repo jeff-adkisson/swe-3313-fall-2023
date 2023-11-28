@@ -761,7 +761,7 @@ Do not forget that you can get up to two extra points on your final grade visiti
 
 [Technical Design Instructions and Grading Rubric](details-technical-design.md)
 
-### Implementation
+## Implementation
 
 `35% = 105 of 300 points`
 
@@ -786,11 +786,15 @@ I cannot stress how important is that your code compiles and runs. The whole poi
 
 Pro Tip: I recommend that every team member review your implementation's readme.md file and try to configure your implementation in a fresh directory. This will help you see steps you have overlooked. I think great work makes it easy on the end-user to get started quickly without having endlessly Google and troubleshoot to try out your work.
 
-As always, you will produce a 5 minute presentation and check it in along with your implementation. Your presentation will demonstrate the process to setup and execute the application. I want to see it compile and run, then perform a purchase as a user. Next, stop the application, then start it again and run the sales report, thus demonstrating that sale performed in the first run was persisted to data storage. Finally, show the record you wrote to data storage (so open the CSV or JSON file or run a SQL query).
+### Optional Implementation Presentation
+
+I recommend producing a 5 minute presentation and checking it in along with your implementation. Your presentation will demonstrate the process to setup and execute the application. I want to see it compile and run, then perform a purchase as a user. Next, stop the application, then start it again and run the sales report, thus demonstrating that sale performed in the first run was persisted to data storage. Finally, show the record you wrote to data storage (so open the CSV or JSON file or run a SQL query).
 
 If you have time, show the project structure and call out anything awesome you did or techniques you embraced such as dependency injection. I will also find it interesting if you show how you separated UI concerns from your services and data storage code. I love talking about code, so entertain me if you have time in your 5 minute presentation.
 
 This presentation *proves* that your application works and your source code compiles. That is critical because it is possible I might not be able to make your source code work on my machine, particularly if you have a complex setup (which I recommend avoiding, but that is your decision).
+
+This presentation is *optional*, so if you are confident I can get your application operational without any problem, you do not need to produce it. The optional implementation presentation does *not* replace the final presentation (which is presented to the entire group and compares your working application to your Marvel UI design),
 
 ### JetBrains Professional IDEs
 
